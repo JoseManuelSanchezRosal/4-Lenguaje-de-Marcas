@@ -1,0 +1,64 @@
+<?xml versión= “1.0” ?>
+<curso nombre = "Primero DAM">
+    <profesores>
+        <profesor>
+            <nombre>Miguel Morales Carmona</nombre>
+            <asignaturas>
+                <asignatura>Lenguaje de Marcas</asignatura>
+                <asignatura>Digitalización Aplicada</asignatura>
+            </asignaturas>
+        </profesor>
+
+        <profesor>
+            <nombre>Teo Rojas Mata</nombre>
+            <asignaturas>
+                <asignatura>Bases de Datos</asignatura>
+                <asignatura>Entorno de Desarrollo</asignatura>
+            </asignaturas>
+        </profesor>
+
+        <profesor>
+            <nombre>Alejandro Torres Huelva</nombre>
+            <asignaturas>
+                <asignatura>Programación</asignatura>
+                <asignatura>Sostenibilidad Aplicada</asignatura>
+            </asignaturas>
+        </profesor>
+
+    </profesores>
+
+    <alumnos>
+        <asistentes nombre = "Comparten asignatura">
+            <alumno>
+                <nombre>Teresa</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Rafa Gamero</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Jose</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Jonathan</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Jamie</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Melissa</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Carlos</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Manuel Rossi</nombre>
+            </alumno>    
+            <alumno>
+                <nombre>Manu</nombre>
+            </alumno>
+            <alumno>
+                <nombre>Rafa</nombre>
+            </alumno>
+        </asistentes>
+    </alumnos>
+</curso>

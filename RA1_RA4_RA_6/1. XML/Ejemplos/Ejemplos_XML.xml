@@ -1,0 +1,29 @@
+<?xml versión= “1.0” ?>
+    <!DOCTYPE steam>
+<steam>
+    <perfil>
+        <nombre>Jose</nombre>
+        <edad>38</edad>
+        <dinero>45</dinero>
+    </perfil>
+
+    <biblioteca>
+        <juego>
+            <titulo>Minecraft</titulo>
+            <horas>8000</horas>
+            <ultimapartida>Ayer</ultimapartida>
+        </juego>
+
+        <juego>
+            <titulo>vampiresurvivor</titulo>
+            <horas>300</horas>
+            <ultimapartida>hoy</ultimapartida>
+        </juego>
+        
+
+
+    </biblioteca>
+
+
+</steam>
+

@@ -1,0 +1,580 @@
+<?xml versión= “1.0” ?>
+
+<Fichero nombre = "Directorio empresa">
+
+    <Edificio nombre = "Sede Central">
+        <Dirección>Calle Miscos 33, 14700, Palma del Río (Córdoba)</Dirección>
+        <Plantas>
+            <Planta nombre = "Admisión y Secretaría">
+                <Numero>Planta baja</Numero>
+                <Metros>250m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Ocio y Cocina">
+                <Numero>Planta 1</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Restaurante y Guarderia">
+                <Numero>Planta 2</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+        </Plantas>
+    </Edificio>
+
+    <Edificio nombre = "Sede Anexa">
+        <Dirección>Calle Tommy 12, 14700, Palma del Río (Córdoba)</Dirección>
+
+
+
+        <Plantas>
+            <Planta nombre = "Admisión y Secretaría">
+                <Numero>Planta baja</Numero>
+                <Metros>250m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Ocio y Cultura">
+                <Numero>Planta 1</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Restaurante y Guarderia">
+                <Numero>Planta 2</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+        </Plantas>
+    </Edificio>
+
+
+
+    <Edificio nombre = "Sede Autonoma">
+        <Dirección>Calle Tumi 15, 14700, Palma del Río (Córdoba)</Dirección>
+
+        <Plantas>
+            <Planta nombre = "Hall entrada y Secretaría">
+                <Numero>Planta baja</Numero>
+                <Metros>250m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Cine y Cocina">
+                <Numero>Planta 1</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+
+
+            <Planta nombre = "Restaurante y Guarderia">
+                <Numero>Planta 2</Numero>
+                <Metros>200m cuadrados</Metros>
+                <Empleados>
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+
+                    <Empleado>
+                        <Puesto>CEO del departamento de Finanzas</Puesto>
+                        <Datos>
+                            <Nombre>José Manuel Sánchez Rosal</Nombre>
+                            <DNI>14638685J</DNI>
+                            <Antiguedad>Febrero 1986</Antiguedad>
+                            <Departamento>Finanzas</Departamento>
+                        </Datos>
+                        <Extension>8488</Extension>
+                    </Empleado>
+                </Empleados>
+            </Planta>
+        </Plantas>
+    </Edificio>
+</Fichero>

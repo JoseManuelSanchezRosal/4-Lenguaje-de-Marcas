@@ -1,0 +1,104 @@
+<?xml versión= “1.0” ?>
+<Clase nombre = "1º DAM">
+    <Profesores>
+        <Profesor>
+            <Nombre>María Fernández Mata</Nombre>
+            <Codigo>16</Codigo>
+            <Asignatura>Itinerario Personal(IPE), 3 horas semanales</Asignatura>
+        </Profesor>
+
+        <Profesor>
+            <Nombre>Teo Rojas Mata</Nombre>
+            <Codigo>40</Codigo>
+            <Asignaturas>
+                <Asignatura>Bases de Datos(BAD), 6 horas semanales</Asignatura>
+                <Asignatura>Entorno de Desarrollo(ENT), 3 horas semanales</Asignatura>        
+            </Asignaturas>
+        </Profesor>
+
+        <Profesor>
+            <Nombre>José León Arévalo(TUTOR)</Nombre>
+            <Codigo>46</Codigo>
+            <Asignatura>Sistemas Informáticos(SIS), 5 horas semanales</Asignatura>
+        </Profesor>
+
+        <Profesor>
+            <Nombre>Miguel Morales Carmona</Nombre>
+            <Codigo>39</Codigo>
+            <Asignaturas>
+                <Asignatura>Lenguaje de Marcas(LEN), 3 horas semanales</Asignatura>
+                <Asignatura>Digitalización Aplicada(DIG), 1 hora semanal</Asignatura>        
+            </Asignaturas>
+        </Profesor>
+
+        <Profesor>
+            <Nombre>Alejandro Torres Huelva</Nombre>
+            <Codigo>42</Codigo>
+            <Asignaturas>
+                <Asignatura>Programación(PRO), 8 horas semanales</Asignatura>
+                <Asignatura>Sostenibilidad Aplicada(SOS), 1 hora semanal</Asignatura>        
+            </Asignaturas>
+        </Profesor>
+    </Profesores>
+
+    <Horario nombre = "Horario definitivo">
+        <Nota>En cada hora se pondrá la abreviatura de la asignatura y el código de profesor que la imparte</Nota>
+
+        <Dias>
+            <Dia nombre = "Lunes">
+                <Horas>
+                    <Hora nombre = "De 8:30 a 9:30">BAD (40)</Hora>
+                    <Hora nombre = "De 9:30 a 10:30">BAD (40)</Hora>
+                    <Hora nombre = "De 10:30 a 11:30">PRO (42)</Hora>
+                    <Hora nombre = "De 12:00 a 13:00">PRO (42)</Hora>
+                    <Hora nombre = "De 13:00 a 14:00">SIS (46)</Hora>
+                    <Hora nombre = "De 14:00 a 15:00">SIS (46)</Hora>
+                </Horas>
+            </Dia>
+
+            <Dia nombre = "Martes">
+                <Horas>
+                    <Hora nombre = "De 8:30 a 9:30">BAD (40)</Hora>
+                    <Hora nombre = "De 9:30 a 10:30">BAD (40)</Hora>
+                    <Hora nombre = "De 10:30 a 11:30">PRO (42)</Hora>
+                    <Hora nombre = "De 12:00 a 13:00">PRO (42)</Hora>
+                    <Hora nombre = "De 13:00 a 14:00">SIS (46)</Hora>
+                    <Hora nombre = "De 14:00 a 15:00">SIS (46)</Hora>
+                </Horas>
+            </Dia>
+
+            <Dia nombre = "Miércoles">
+                <Horas>
+                    <Hora nombre = "De 8:30 a 9:30">ENT (40)</Hora>
+                    <Hora nombre = "De 9:30 a 10:30">ENT (40)</Hora>
+                    <Hora nombre = "De 10:30 a 11:30">LEN (39)</Hora>
+                    <Hora nombre = "De 12:00 a 13:00">LEN (39)</Hora>
+                    <Hora nombre = "De 13:00 a 14:00">PRO (42)</Hora>
+                    <Hora nombre = "De 14:00 a 15:00">PRO (42)</Hora>
+                </Horas>
+            </Dia>
+
+            <Dia nombre = "Jueves">
+                <Horas>
+                    <Hora nombre = "De 8:30 a 9:30">IPE (16)</Hora>
+                    <Hora nombre = "De 9:30 a 10:30">IPE (16)</Hora>
+                    <Hora nombre = "De 10:30 a 11:30">PRO (42)</Hora>
+                    <Hora nombre = "De 12:00 a 13:00">PRO (42)</Hora>
+                    <Hora nombre = "De 13:00 a 14:00">SOS (42)</Hora>
+                    <Hora nombre = "De 14:00 a 15:00">LEN (39)</Hora>
+                </Horas>
+            </Dia>
+
+            <Dia nombre = "Viernes">
+                <Horas>
+                    <Hora nombre = "De 8:30 a 9:30">IPE (16)</Hora>
+                    <Hora nombre = "De 9:30 a 10:30">SIS (46)</Hora>
+                    <Hora nombre = "De 10:30 a 11:30">BAD (40)</Hora>
+                    <Hora nombre = "De 12:00 a 13:00">BAD (40)</Hora>
+                    <Hora nombre = "De 13:00 a 14:00">ENT (40)</Hora>
+                    <Hora nombre = "De 14:00 a 15:00">DIG (39)</Hora>
+                </Horas>
+            </Dia>
+        </Dias>
+    </Horario>
+</Clase>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<canales>
+    <canal nombre="La primera" numero="1">
+        <dia nombre="lunes">
+            <programas>
+                <programa>
+                    <titulo>Noticias</titulo>
+                    <duracion>30</duracion>
+                    <descripcion>Noticias de la tarde</descripcion>
+                    <edad>12</edad>
+                </programa>
+                
+                <programa>
+                    <titulo>Las manianas con la uno</titulo>
+                    <duracion>100</duracion>
+                    <descripcion>Salsa rosa de la maniana</descripcion>
+                    <edad>16</edad>
+                </programa>
+            </programas>
+        </dia>
+    </canal>
+</canales>

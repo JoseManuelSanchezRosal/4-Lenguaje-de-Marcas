@@ -1,0 +1,38 @@
+RA6. XPATH y XQUERY.
+
+Gestiona la información en formatos de intercambio de datos analizando y utilizando tecnologías de almacenamiento y lenguajes de consulta.
+
+Criterios de evaluación:
+a) Se han identificado los principales métodos de almacenamiento de la información utilizados en documentos de intercambio de datos. P5
+b) Se han identificado las ventajas e inconvenientes de almacenar información en formatos de intercambio de datos. P5
+Aquí tienes un resumen de las ventajas e inconvenientes de almacenar información en formatos de intercambio de datos:
+### Ventajas
+1. **Interoperabilidad**:
+   - Facilitan la comunicación entre diferentes sistemas y plataformas, permitiendo el intercambio de datos sin importar el entorno.
+2. **Estandarización**:
+   - Formatos como XML y JSON son ampliamente aceptados y utilizados, lo que facilita la integración y el desarrollo de aplicaciones.
+3. **Legibilidad**:
+   - Formatos como CSV y JSON son fáciles de leer y entender, tanto para humanos como para máquinas.
+4. **Flexibilidad**:
+   - Muchos de estos formatos permiten una estructura jerárquica (como XML y JSON), lo que facilita el almacenamiento de datos complejos.
+5. **Compatibilidad con herramientas**:
+   - Existen numerosas herramientas y bibliotecas disponibles para trabajar con estos formatos, facilitando la manipulación y análisis de datos.
+
+### Inconvenientes
+1. **Tamaño del archivo**:
+   - Algunos formatos (como XML) pueden ser más grandes debido a su estructura de etiquetas, lo que puede afectar el rendimiento en términos de almacenamiento y velocidad de transferencia.
+2. **Complejidad**:
+   - Algunos formatos, como XML, pueden ser complicados de manejar y requieren un mayor esfuerzo de procesamiento.
+3. **Limitaciones de tipo de datos**:
+   - Formatos como CSV no admiten tipos de datos complejos, lo que puede limitar su uso en ciertos contextos.
+4. **Seguridad**:
+   - Los datos en texto plano (como JSON y CSV) pueden ser más vulnerables a ataques si no se protegen adecuadamente.
+5. **Versionado**:
+   - La evolución de los esquemas en formatos estructurados (como XML) puede complicar el manejo de versiones y la compatibilidad hacia atrás.
+En resumen, aunque los formatos de intercambio de datos ofrecen muchas ventajas, también presentan desafíos que deben ser considerados al seleccionar el método más adecuado para almacenar información.
+
+c) Se han establecido tecnologías eficientes de almacenamiento de información en función de sus características. P5
+
+d) Se han identificado lenguajes y herramientas para el tratamiento y almacenamiento de información y su inclusión en documentos de intercambio de datos. P5
+e) Se han utilizado lenguajes de consulta y manipulación en documentos de intercambio de datos. XQUERY
+

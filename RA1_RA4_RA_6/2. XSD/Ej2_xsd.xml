@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder  orderid = "7645"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="Ej2_xml.xsd">
+    <orderperson>
+        Marco Aurelio
+    </orderperson>
+    <shipto ><!--EL ATRIBUTO VA EN SHIPORDER, NO EN SHIPTO-->
+        <name>Marco Aurelio</name>
+        <address>Calle Infierno 6</address>
+        <city>Palma del Rio</city>
+        <country>Cordoba</country>
+    </shipto>
+    <item>
+        <title>Detras del ultimo no va nadie</title>
+        <note>Un libro muy bueno</note>
+        <quantity>3</quantity>
+        <price>45.0</price>
+    </item>
+    <item>
+        <title>Tengo el Cerebelo Fundido</title>
+        <note>Sin neuronas me voy a quedar</note>
+        <quantity>1</quantity>
+        <price>150.5</price>
+    </item>
+</shiporder>

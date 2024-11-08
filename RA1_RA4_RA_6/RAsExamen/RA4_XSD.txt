@@ -1,0 +1,10 @@
+RA4
+Establece mecanismos de validación de documentos para el intercambio de información utilizando métodos para definir su sintaxis y estructura.
+Criterios de evaluación:
+a) Se ha establecido la necesidad de describir la información transmitida en los documentos y sus reglas. XSD
+b) Se han identificado las tecnologías relacionadas con la definición de documentos. XSD
+c) Se ha analizado la estructura y sintaxis específica utilizada en la descripción. XSD
+d) Se han creado descripciones de documentos. XSD.
+e) Se han utilizado descripciones en la elaboración y validación de documentos. XSD > XML
+f) Se han asociado las descripciones con los documentos. XSD > XML
+g) Se han utilizado herramientas específicas. XSD.

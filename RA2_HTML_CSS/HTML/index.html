@@ -1,0 +1,98 @@
+<!DOCTYPE html><!--Para identificar documento HTML-->
+<html lang="en">
+<head><!--Aqui estan los metadatos (informacion) y la configuracion-->
+    <meta charset="UTF-8"><!--Lenguaje utilizado-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title><!--Nombre de la "pestana"-->
+    <!--Aqui se pueden poner enlaces a CSS y JavaScript-->
+    <style>
+        table, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+    </style>
+</head>
+<body><!--Empienza el area de trabajo-->
+    <!--Todo lo que hay aqui se muestra en la pagina-->
+    <h1>Un titulo</h1>
+    <h2>Un titulo mas pequeno</h2>
+    <h3>otro titulo mas pequeno</h3>
+    <h4>Esto es con span</h4>
+    <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis quidem eum vero obcaecati odio pariatur corrupti? Veritatis blanditiis eveniet commodi possimus numquam, laudantium rerum sit culpa, voluptas in magni aperiam.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae architecto totam cupiditate. Quas cupiditate natus accusamus adipisci, iste cum fuga, facere magnam provident modi voluptate porro id inventore. Fuga, autem!Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque tempore, voluptates perspiciatis, animi rerum a eum, ratione exercitationem ad libero qui nulla rem fugiat voluptate dignissimos odit autem fuga! Consequatur.</span>
+    <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio quaerat vitae quo porro pariatur assumenda sint beatae numquam non laudantium adipisci tempora dolore eligendi quia rerum necessitatibus, doloribus deserunt repudiandae.</span>
+    <h4>esto es con p</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum repudiandae eos sunt labore magnam voluptatem aliquam repellendus. Voluptatum explicabo fugit molestiae corrupti non, amet ab, nesciunt nostrum ipsa pariatur quibusdam.</p>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione laboriosam blanditiis unde tenetur perferendis. Ex fugit, vel itaque voluptates harum quos totam odit dignissimos ducimus eos doloribus quisquam neque minus.Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit recusandae culpa corporis, minima autem quibusdam deleniti rerum ab tenetur minus eligendi! Numquam dolor ducimus odit eos velit rem hic cupiditate.Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum tempora rem autem, alias rerum omnis praesentium illo ut officia ratione modi! Molestiae cum officia voluptates non porro. Aspernatur, dolore repellat?</p>
+    <!--HASTA AQUI LOS ELEMENTOS BASICOS, MIRAR EN TUTORIALES MAS TIPOS DE ELEMENTOS Y WD3SCHOOL-->
+    <div>Hola mundo</div><!--Comunmente conocido como contenedor o container (elemento idoneo personalizable para CSS)-->
+    <div style = "color: red;">Adios mundo</div>
+    <!--img es para integrar foto en la pagina-->
+    <img src="sources/ojo.png" alt="Ojo"><!--El src es la direccion de la procedencia tanto local como online de la imagen. Alt es para quien no pueda ver la foto, le hable y le diga el contenido de la foto-->
+    <!--Enlaces con <a> href ponemos enlace y dentro ponemos el nombre del "boton al enlace"-->
+    <br><!--Salto de linea "Breakpoint"-->
+    <a href="https://www.google.com">Google</a>
+    <!--TABLAS-->
+    <table style="border: 1px solid black;"><!--Para crear tabla de 5 filas por 3 columnas: "tr*5>td*3" e intro-->
+        <tr><!--FILA-->
+            <td>TR1TD1</td><!--Rowspan filas, colspan columnas(sirven para fusionar celdas)-->
+            <td>TR1TD2</td><!--COLUMNAS-->
+            <td>TR1TD3</td>
+        </tr>
+
+        <tr><!--FILA-->
+          
+            <td>TR2TD1</td><!--COLUMNAS-->
+            <td>TR2TD2</td>
+            <td>TR2TD3</td>
+        </tr>
+
+        <tr><!--FILA-->
+           
+            <td>TR3TD1</td><!--COLUMNAS-->
+            <td>TR3TD2</td>
+            <td>TR3TD3</td>
+        </tr>
+
+        <tr><!--FILA-->
+           
+            <td>TR4TD1</td><!--COLUMNAS-->
+            <td>TR4TD2</td>
+            <td>TR4TD3</td>
+        </tr>
+
+        <tr><!--FILA-->
+          
+            <td>TR5TD1</td><!--COLUMNAS-->
+            <td>TR5TD2</td>
+            <td>TR5TD3</td>
+        </tr>
+
+    </table>
+    <!--Listas-->
+    <h1>Lista ordenada (ordered list)(OL) </h1><!--Enumera con numeros los li-->
+    <ol>
+        <li>Num 1</li>
+        <li>Num 2</li>
+    </ol>
+    <h1>Lista desordenada (unordered list)(UL) </h1><!--Pone puntitos en cada li-->
+    <ul>
+        <li>Algo mas</li>
+        <li>Algo</li>
+        <li>Asereje</li>
+        <li>incrusto otra lista ordenada
+            <ol>
+                <li>numero</li>
+                <li>otro numero</li>
+            </ol>
+        </li>
+    </ul>
+    <!--Formulario-->
+    <form action="" method="post(envias informacion), get(envias solicitud de informacion)"><!--En action es lo que va a pasar cuando pulsemos el submit|| el method es la configuracion del paquete de informacion-->
+        <!--Campos del formulario-->
+        <label for="nombre">nombre de usuario</label>
+        <input type="texto"/>
+        <input type="submit"/>
+        
+    </form>
+</body>
+</html>

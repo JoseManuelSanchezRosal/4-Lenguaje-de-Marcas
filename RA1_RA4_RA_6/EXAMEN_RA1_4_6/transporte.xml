@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<transporte>
+    <medios>
+        <medio>
+            <privado>
+                <nombre>Jet Privado</nombre>
+                <velocidad>700</velocidad>
+                <contaminacion>110 gramos de CO2 por kilómetro y pasajero</contaminacion>
+                <opera>Aire</opera>
+                <pasajeros>15</pasajeros>
+            </privado>
+            <publico>
+                <nombre>Avion</nombre>
+                <velocidad>600</velocidad>
+                <contaminacion>192 gramos de CO2 por kilómetro y pasajero</contaminacion>
+                <opera>Aire</opera>
+                <pasajeros>200</pasajeros>
+            </publico>
+        </medio>
+
+        <medio>
+            <nombre>Coche</nombre>
+            <velocidad>150</velocidad>
+            <contaminacion>140 gramos de CO2 por kilómetro</contaminacion>
+            <opera>Carretera</opera>
+            <pasajeros>5</pasajeros>
+        </medio>
+
+        <medio>
+            <nombre>Ave</nombre>
+            <velocidad>300</velocidad>
+            <contaminacion>80 gramos de CO2 por kilómetro y pasajero</contaminacion>
+            <opera>Vias</opera>
+            <pasajeros>5200</pasajeros>
+        </medio>
+
+    </medios>
+
+    <conductores>
+
+        <conductor medio="Avion">
+            <nombre>Alfredo Perez</nombre>
+            <dni>23443456H</dni>
+            <telefono>567776556</telefono>
+        </conductor>
+
+        <conductor medio="Ave">
+            <nombre>Juan Alonso</nombre>
+            <dni>586786756J</dni>
+            <telefono>222333444</telefono>
+        </conductor>
+
+        <conductor medio="Coche">
+            <nombre>Pedro Cortes</nombre>
+            <dni>586786756J</dni>
+            <telefono>222333444</telefono>
+            <matricula>3867GBH</matricula>
+        </conductor>
+
+    </conductores>
+    
+</transporte>

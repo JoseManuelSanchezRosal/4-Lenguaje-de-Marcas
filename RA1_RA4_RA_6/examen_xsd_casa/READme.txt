@@ -1,0 +1,3 @@
+Buenas noches Miguel..... Este seria mi ultimo ejercicio del primer examen, que trataba de generar el XSD de la television.... que por falta de tiempo, (o, perdida del mismo ante el XML anterior), no lo pude desarrollar bien....aqui te lo dejo tal cual hecho en casa. Sin mirar nada. Gracias y un saludo....
+PD: para los proximos examenes, por favor, vamos a dejar un poquito mas de tiempo. Please!
+Enjoy de finde!

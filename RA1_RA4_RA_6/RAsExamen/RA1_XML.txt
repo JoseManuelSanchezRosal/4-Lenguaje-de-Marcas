@@ -1,0 +1,61 @@
+RA1: Introducción a los lenguajes de marcas. XML.
+
+a) Se han identificado las características generales de los lenguajes de marcas:
+Los lenguajes de marcas son sistemas de notación que se utilizan para estructurar y organizar información en documentos. 
+	1. **Estructura jerárquica**: Los elementos se organizan en una estructura anidada, permitiendo definir relaciones entre ellos.
+	2. **Etiquetas o "tags"**: Utilizan etiquetas que delimitan el comienzo y el final de un elemento. 
+	3. **Texto plano**: La información se presenta en texto legible 
+	4. **Separación de contenido y presentación**: Permiten separar el contenido del formato, lo que facilita la reusabilidad y el mantenimiento.
+	5. **Interoperabilidad**: Muchos lenguajes de marcas están diseñados para ser utilizados en diferentes plataformas y aplicaciones, facilitando el intercambio de datos.
+	6. **Extensibilidad**: Algunos lenguajes permiten la creación de etiquetas personalizadas, adaptándose a necesidades específicas.
+	7. **Validación**: Se pueden definir esquemas o reglas para validar la estructura y el contenido del documento, asegurando que cumpla con ciertos estándares.
+	
+LA PRINCIPAL DIFERENCIA ENTRE XML Y HTML ES QUE USAMOS XML PARA GUARDAR INFORMACION Y HTML PARA MOSTRARLA.
+
+Ejemplos comunes de lenguajes de marcas incluyen HTML, XML y Markdown.
+
+b) Se han reconocido las ventajas que proporcionan en el tratamiento de la información:
+1. **Estructuración de datos**: Permiten organizar la información de manera jerárquica y lógica, facilitando su comprensión y manipulación.
+2. **Interoperabilidad**: Facilitan el intercambio de datos entre diferentes sistemas y plataformas, lo que es crucial en entornos web y aplicaciones diversas.
+3. **Flexibilidad**: Muchos lenguajes de marcas son extensibles, lo que permite a los usuarios definir sus propias etiquetas y adaptarlas a necesidades específicas.
+4. **Separación de contenido y presentación**: Esto permite que el contenido sea reutilizable en diferentes contextos y estilos, optimizando el diseño y la presentación.
+5. **Validación de datos**: A través de esquemas (como DTD o XML Schema), se pueden establecer reglas que aseguran que los documentos cumplen con ciertas especificaciones, mejorando la calidad de los datos.
+6. **Facilidad de lectura y edición**: Los documentos en lenguajes de marcas son generalmente legibles para los humanos, lo que facilita su edición y comprensión.
+7. **Accesibilidad**: La estructura de los documentos ayuda a que sean más accesibles para personas con discapacidades, ya que los lectores de pantalla pueden interpretar mejor los elementos estructurados.
+8. **Integración con tecnologías web**: Lenguajes como HTML y XML se integran fácilmente con otras tecnologías web, como CSS y JavaScript, potenciando la creación de aplicaciones ricas en contenido.
+9. **Facilitación de la automatización**: La estructura de los lenguajes de marcas permite la automatización en la generación y manipulación de datos, simplificando tareas repetitivas.
+Estas ventajas hacen que los lenguajes de marcas sean herramientas valiosas en el manejo de información en diversas aplicaciones y entornos.
+
+c) Se han clasificado los lenguajes de marcas e identificado los más relevantes. Y d) Ámbitos de aplicación:
+	1. **Lenguajes de Marcas Estructurales**:
+	   - **HTML (HyperText Markup Language)**: Utilizado para crear y estructurar contenido en la web.
+	   - **XML (eXtensible Markup Language)**: Diseñado para almacenar y transportar datos, permitiendo la creación de etiquetas personalizadas.
+	2. **Lenguajes de Marcas de Presentación**:
+	   - **CSS (Cascading Style Sheets)**: Aunque no es un lenguaje de marcas per se, se utiliza junto con HTML para definir la presentación y el diseño de los documentos web.
+	   - **XSL (eXtensible Stylesheet Language)**: Se usa para transformar y presentar documentos XML.
+	3. **Lenguajes de Marcas de Datos**:
+	   - **JSON (JavaScript Object Notation)**: Aunque no es un lenguaje de marcas tradicional, se utiliza comúnmente para estructurar datos, especialmente en aplicaciones web.
+	   - **YAML (YAML Ain't Markup Language)**: Utilizado para la serialización de datos, especialmente en configuraciones.
+	4. **Lenguajes de Marcas de Descripción**:
+	   - **Markdown**: Un lenguaje de marcado ligero que permite la creación de texto con formato, fácil de leer y escribir.
+	   - **LaTeX**: Usado principalmente para la creación de documentos científicos y técnicos con alta calidad tipográfica.
+
+	### Lenguajes de Marcas Más Relevantes
+		- **HTML**: Fundamental para el desarrollo web.
+		- **XML**: Muy utilizado en servicios web y para la interoperabilidad de datos.
+		- **CSS**: Esencial para el diseño visual de páginas web.
+		- **Markdown**: Popular en documentación y plataformas de publicación como GitHub.
+		- **LaTeX**: Preferido en el ámbito académico para la elaboración de documentos complejos.
+Estos lenguajes permiten una gran flexibilidad en la creación y manipulación de contenido en diferentes contextos, desde la web hasta aplicaciones de escritorio y sistemas de gestión de datos.
+
+e) Se han reconocido la necesidad y los ámbitos específicos de aplicación de un lenguaje de marcas de propósito general.
+	- Los lenguajes de marcas de propósito general son herramientas versátiles que permiten estructurar, almacenar y presentar información de manera eficiente.
+	- Ámbitos de aplicación: - Desarrollo web (HTML y XML). - Documentación técnica (Markdown y LaTeX). - Intercambio de datos (XML y JSON).
+				 - Bases de datos (XML). - Configuración y automatización (YAML). - Publicaciones digitales (EBUP). App móviles (XML).
+
+f) Se han analizado las características propias de diferentes lenguajes de marcas. XML
+g) Se ha identificado la estructura de un documento y sus reglas sintácticas. XML
+h) Se ha contrastado la necesidad de crear documentos bien formados y la influencia en su procesamiento. XML
+
+i) Se han identificado las ventajas que aportan los espacios de nombres.
+	namespace XML y XSD: Son todos los elementos que se encuentran dentro de un archivo XML. Por ejemplo la información que guardamos sobre unos libros, los namespaces serían: título, nombre del autor, año publicación, genero, etc...

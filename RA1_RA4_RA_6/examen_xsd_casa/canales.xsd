@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="canales">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="canal">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="dia">
+                                <xs:complexType>
+                                    <xs:sequence>
+                                        <xs:element name="programas">
+                                            <xs:complexType>
+                                                <xs:sequence>
+                                                    <xs:element name="programa">
+                                                        <xs:complexType>
+                                                            <xs:sequence>
+                                                                <xs:element name="titulo" type="xs:string" required="si"/>
+                                                                <xs:element name="duracion" type="xs:integer" required="si"/>
+                                                                <xs:element name="descripcion" type="xs:string" required="si"/>
+                                                                <xs:element name="edad" type="xs:integer" required="si"/>
+                                                            </xs:sequence>
+                                                        </xs:complexType>
+                                                    </xs:element>
+                                                </xs:sequence>
+                                            </xs:complexType>
+                                        </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="nombre" type="xs:string" required="si"/>
+                                </xs:complexType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" required="si"/>
+                        <xs:attribute name="numero" type="xs:string" required="si"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

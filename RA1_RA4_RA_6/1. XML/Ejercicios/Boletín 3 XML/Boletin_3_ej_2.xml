@@ -1,0 +1,155 @@
+<?xml versión= “1.0” ?>
+<!--PREGUNTAR A MIGUEL SI SE PUEDE CREAR UN ARCHIVO NOMBRANDO CON ETIQUETAS TODOS LOS PADRES E HIJOS-->
+<Fichero nombre = "cluster">
+    <Nodo nombre = "Servidor Palma del Río">
+        <MV nombre = "Pc Secretaría">
+            <Sistema_operativo>Ubuntu</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">192.158.1.38.</Direccion>
+                <Direccion nombre = "MAC">00:1B:44:11:3A:B7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Dirección">
+            <Sistema_operativo>Windows 11</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">190.1.125.18.</Direccion>
+                <Direccion nombre = "MAC">02:5B:43:16:3C:D8</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Ingeniería">
+            <Sistema_operativo>Mac OS</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">190.12.155.11.</Direccion>
+                <Direccion nombre = "MAC">08:5B:43:16:3K:A8</Direccion>
+            </Interface>
+        </MV>
+    </Nodo>
+
+    <Nodo nombre = "Servidor Hornachuelos">
+        <MV nombre = "Pc Gym">
+            <Sistema_operativo>Debian</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">192.108.1.98.</Direccion>
+                <Direccion nombre = "MAC">00:1L:44:18:3A:M7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Administración">
+            <Sistema_operativo>Mandriva</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Interfaz nombre = "IP">190.1.125.18.</Interfaz>
+                <Interfaz nombre = "MAC">02:5B:43:16:3C:D8</Interfaz>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Asesoría">
+            <Sistema_operativo>Mac OS</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">195.52.255.10.</Direccion>
+                <Direccion nombre = "MAC">08:5V:43:20:3K:B7</Direccion>
+            </Interface>
+        </MV>
+    </Nodo>
+
+
+    <Nodo nombre = "Servidor Fuente Palmera">
+        <MV nombre = "Pc Pedidos">
+            <Sistema_operativo>Unix</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">192.168.125.128.</Direccion>
+                <Direccion nombre = "MAC">10:1J:54:13:3F:M7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV>
+            <Nombre = "Pc Clientes">
+                <Sistema_operativo>Fedora</Sistema_operativo>
+                <Interface nombre = "WIFI">
+                    <Interfaz nombre = "IP">170.10.325.88.</Interfaz>
+                    <Interfaz nombre = "MAC">02:2C:43:16:5F:A8</Interfaz>
+                </Interface>
+            </Nombre>
+        </MV>
+
+        <MV nombre = "Pc Sstock">
+            <Sistema_operativo>Reactos</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">191.5.55.109.</Direccion>
+                <Direccion nombre = "MAC">22:5V:43:20:3M:A3</Direccion>
+            </Interface>
+        </MV>
+    </Nodo>
+
+
+    <Nodo nombre = "Servidor Écija">
+        <MV nombre = "Pc N4">
+            <Sistema_operativo>Solaris</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">152.268.175.128.</Direccion>
+                <Direccion nombre = "MAC">10:4J:51:13:3F:A7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Clientes">
+            <Sistema_operativo>Haiku</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">175.30.345.98.</Direccion>
+                <Direccion nombre = "MAC">02:1H:33:12:1S:A8</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Sstock">
+            <Sistema_operativo>BeOS</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">128.22.35.119.</Direccion>
+                <Direccion nombre = "MAC">22:2C:43:C0:B1:A2</Direccion>
+            </Interface>
+        </MV>
+    </Nodo>
+
+
+    <Nodo nombre = "Servidor La Carlota">
+        <MV nombre = "Pc Bar">
+            <Sistema_operativo>HP-UX</Sistema_operativo>
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">152.268.175.128.</Direccion>
+                <Direccion nombre = "MAC">10:4J:51:13:3F:A7</Direccion>
+            </Interface>
+
+            <Interface nombre = "Bluetooth">
+                <Direccion nombre = "IP">155.228.145.128.</Direccion>
+                <Direccion nombre = "MAC">10:4T:51:13:3X:A7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Sauna">
+            <Sistema_operativo>Haiku</Sistema_operativo>
+
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">175.30.345.98.</Direccion>
+                <Direccion nombre = "MAC">02:1H:33:12:1S:A8</Direccion>
+            </Interface>
+            
+            <Interface nombre = "Bluetooth">
+                <Direccion nombre = "IP">155.228.145.128.</Direccion>
+                <Direccion nombre = "MAC">10:4T:51:13:3X:A7</Direccion>
+            </Interface>
+        </MV>
+
+        <MV nombre = "Pc Admisión">
+            <Sistema_operativo>BeOS</Sistema_operativo>
+
+            <Interface nombre = "WIFI">
+                <Direccion nombre = "IP">128.22.35.119.</Direccion>
+                <Direccion nombre = "MAC">22:2C:43:C0:B1:A2</Direccion>
+            </Interface>
+
+            <Interface nombre = "Bluetooth">
+                <Direccion nombre = "IP">155.248.145.228.</Direccion>
+                <Direccion nombre = "MAC">10:4T:51:13:1S:C8</Direccion>
+            </Interface>
+        </MV>
+    </Nodo>
+</Fichero>

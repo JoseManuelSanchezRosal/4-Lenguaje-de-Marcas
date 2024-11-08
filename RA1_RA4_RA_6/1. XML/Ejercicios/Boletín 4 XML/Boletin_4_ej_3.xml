@@ -1,0 +1,102 @@
+<?xml versión= “1.0” ?>
+<Fichero nombre = "Concesionario">
+    <Marca nombre = "AUDI">
+        <Pais>Alemania</Pais>
+
+        <Coches>
+            <Coche nombre = "A4">
+                <Matricula>5555MWS</Matricula>
+                <Año>2024</Año>
+                <Plazas>5</Plazas>
+                <Cilindrada>2500cc</Cilindrada>
+            </Coche>
+
+            <Coche nombre = "A5">
+                <Matricula>2255MWT</Matricula>
+                <Año>2024</Año>
+                <Plazas>4</Plazas>
+                <Cilindrada>3500cc</Cilindrada>
+            </Coche>
+        </Coches>
+    </Marca>
+
+    <Marca nombre = "AUDI">
+        <Pais>Alemania</Pais>
+
+        <Coches>
+            <Coche nombre = "A4">
+                <Matricula>5555MWS</Matricula>
+                <Año>2024</Año>
+                <Plazas>5</Plazas>
+                <Cilindrada>2500cc</Cilindrada>
+            </Coche>
+
+            <Coche nombre = "A5">
+                <Matricula>2255MWT</Matricula>
+                <Año>2024</Año>
+                <Plazas>4</Plazas>
+                <Cilindrada>3500cc</Cilindrada>
+            </Coche>
+        </Coches>
+    </Marca>
+
+    <Marca nombre = "AUDI">
+        <Pais>Alemania</Pais>
+
+        <Coches>
+            <Coche nombre = "A4">
+                <Matricula>5555MWS</Matricula>
+                <Año>2024</Año>
+                <Plazas>5</Plazas>
+                <Cilindrada>2500cc</Cilindrada>
+            </Coche>
+
+            <Coche nombre = "A5">
+                <Matricula>2255MWT</Matricula>
+                <Año>2024</Año>
+                <Plazas>4</Plazas>
+                <Cilindrada>3500cc</Cilindrada>
+            </Coche>
+        </Coches>
+    </Marca>
+
+    <Marca nombre = "AUDI">
+        <Pais>Alemania</Pais>
+
+        <Coches>
+            <Coche nombre = "A4">
+                <Matricula>5555MWS</Matricula>
+                <Año>2024</Año>
+                <Plazas>5</Plazas>
+                <Cilindrada>2500cc</Cilindrada>
+            </Coche>
+
+            <Coche nombre = "A5">
+                <Matricula>2255MWT</Matricula>
+                <Año>2024</Año>
+                <Plazas>4</Plazas>
+                <Cilindrada>3500cc</Cilindrada>
+            </Coche>
+        </Coches>
+    </Marca>
+
+    <Marca nombre = "AUDI">
+        <Pais>Alemania</Pais>
+
+        <Coches>
+            <Coche nombre = "A4">
+                <Matricula>5555MWS</Matricula>
+                <Año>2024</Año>
+                <Plazas>5</Plazas>
+                <Cilindrada>2500cc</Cilindrada>
+            </Coche>
+
+            <Coche nombre = "A5">
+                <Matricula>2255MWT</Matricula>
+                <Año>2024</Año>
+                <Plazas>4</Plazas>
+                <Cilindrada>3500cc</Cilindrada>
+            </Coche>
+        </Coches>
+    </Marca>
+</Fichero>

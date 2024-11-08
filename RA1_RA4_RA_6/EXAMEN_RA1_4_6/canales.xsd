@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="canal"/>
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element nombre="dias"/>
+                    <xs:complexType>
+                        <xs:attribute name="dia" type="xs:string"/>
+                    </xs:complexType>
+            </xs:sequence>
+            <xs:attribute name="nombre" type="xs:string"/>
+            <xs:attribute name="numero" type="xs:integer" required="si"/>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:element name="programacion">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="programa"/>
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name"duracion" type="xs:integer"/>
+                            <xs:element name"titulo"></xs:element>
+                            <xs:element name"descripcion" type="xs:string"/>
+                            <xs:element name"edad" type="xs:integer"/>
+                            <xs:element name"descripcion" type="xs:string"/>
+                        </xs:sequence>
+                        <xs:attribute name="nombre" type="xs:string" maxOccurs="unbounded"/>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>

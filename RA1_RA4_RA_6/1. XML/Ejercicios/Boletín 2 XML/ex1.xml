@@ -1,0 +1,48 @@
+<?xml versión= “1.0” ?>
+<Cine nombre = "Artesiete Écija">
+
+    <Peliculas nombre = "Cartelera">
+<!--PARA EL CASO DE QUE HAYA ALGUNA PELÍCULA QUE SE PROYECTE EN VARIAS SALAS, DENTRO DEL PADRE PELÍCULA PONER PROYECCIONES Y LUEGO ATRIBUTO SALA PARA CADA PROYECCIÓN.-->
+        <Pelicula nombre = "Detrás del Último, no va nadie">
+            <Sinopsis>En el lejano Oeste, vivían 3 amigos y el que iba el último siempre miraba detrás, cuando detrás del último, no va nadie</Sinopsis>
+            <Director>Una película de Dr. Miguel Arévalo</Director>
+            <Protagonistas>Rafalín Gamero, María de las Teresas, Josema Sánchez</Protagonistas>
+            <Proyección>Sala 1</Proyección>
+            <Sesiones>17:00h./19:30h/22:00h.</Sesiones>           
+        </Pelicula>
+
+        <Pelicula nombre = "La bala que dobló la esquina">
+            <Sinopsis>Un experto tirador aprende a disparar, dando efecto a las balas, doblando las esquinas. Años mas tarde sacaron "Wanted".</Sinopsis>
+            <Director>Una película de D. Asencio Vargas</Director>
+            <Protagonistas>Protagonistas principales: Jaimito el Guapo, Melissandre, Carliños Brown</Protagonistas>
+            <Proyección>Sala 2</Proyección>
+            <Sesiones>17:30h./19:00h/23:00h.</Sesiones>           
+        </Pelicula>
+    
+        <Pelicula nombre = "El que algo quiere, algo le cuesta">
+            <Sinopsis>Habla de un hombre que con 40 años se inició en el mundo de la programación, cuenta la historia del sudor y sangre derramados.</Sinopsis>
+            <Director>Una película de Ana Mena</Director>
+            <Protagonistas>Protagonistas principales: Manu, Rossi, Rafinha</Protagonistas>
+            <Proyección>Sala 3</Proyección>
+            <Sesiones>16:30h./18:45h/21:00h.</Sesiones>           
+        </Pelicula>
+
+        <Pelicula nombre = "Si tú me dices ven, me voy por la puerta de atrás">
+            <Sinopsis>Habla de un hombre que se cansa de su mujer tras 40 años de casado. Cuenta la historia de la evolución del matrimonio.</Sinopsis>
+            <Director>Una película Carlos Omega</Director>
+            <Protagonistas>Protagonistas principales: Salva Otero, Javi Sants, Óscar el Guapo</Protagonistas>
+            <Proyección>Sala 4</Proyección>
+            <Sesiones>17:15h./19:40h/21:50h.</Sesiones>           
+        </Pelicula>
+
+        <Pelicula nombre = "Amanece, que no es poco">
+            <Sinopsis>Cuenta la leyenda que no importa a la hora que te acuestes ni te levantes, siempre habrá un ayer, un hoy y un mañana.</Sinopsis>
+            <Director>Una película de Ana Mena</Director>
+            <Protagonistas>Protagonistas principales: Jona Than, AdriÁ Valls, Pepe Aserejé</Protagonistas>
+            <Proyección>Sala 5</Proyección>
+            <Sesiones>22:00h./00:00h.</Sesiones>           
+        </Pelicula>
+
+    </Peliculas>
+
+</Cine>

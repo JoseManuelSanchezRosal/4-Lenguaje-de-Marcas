@@ -1,0 +1,67 @@
+<?xml versión= “1.0” ?>
+<Ordenador nombre = "PC de Josema">
+<!--NOMBRE DEL EQUIPO, TIPO, FABRICANTE, PRECIO Y CARACTERÍSTICAS-->
+        
+    <Hardware nombre = "Placa Base">
+        <Modelo>MSI MPG B550 GAMING PLUS</Modelo>
+        <Tipo>Es un tipo de hardware de procesamiento</Tipo>
+        <Fabricante>MSI</Fabricante>
+        <Precio>125,99€</Precio>
+        <Caracteristicas><!--PREGUNTAR A MIGUEL SI SE PUEDE HACER SALTO DE LÍNEA PARA COMENTARIOS DE TEXTO LARGOS, EN LUGAR DE HACER COMENTARIOS DE
+                UNO EN UNO-->
+            <Caracteristica>Soporte para procesadores AMD Ryzen de tercera generación y futuros AMD Ryzen con actualización de BIOS</Caracteristica>
+            <Caracteristica>Admite memoria DDR4, hasta 4400 OC MHz</Caracteristica>
+            <Caracteristica>Experiencia Lightning Fast Game: PCle 4.0 LG 4x4 M.2 Shield Frozr, AMD Turbo USB 3.2 Gen 2</Caracteristica>
+            <Caracteristica>Diseño de Potencia mejorado:  Core Boost, PWM IC digital, PCB de cobre espesado de 2 oz, DDR4 Boost</Caracteristica>
+            <Caracteristica>El disipador térmico extendido está diseñado para sistema de alto rendimiento y una experiencia de juego contínua</Caracteristica>
+            <Caracteristica>Blindaje de E/S preinstalado: mejor protección EMI y más comodidad para la instalación</Caracteristica>
+        </Características>
+
+    </Hardware>
+
+    <Hardware nombre = "Memoria RAM">
+        <Modelo>Corsair Dominator Platinum RGB DDR5 6600MHz 64GB 2x32GB CL32 Negra</Modelo>
+        <Tipo>Es un tipo de hardware de almacenamiento interno</Tipo>
+        <Fabricante>Corsair</Fabricante>
+        <Precio>320,99€</Precio>
+        <Caracteristicas>
+            <Caracteristica>Regulación del voltaje integrada mediante el software CORSAIR iCUE.</Caracteristica>
+            <Caracteristica>Memoria interna de 64 GB DDR5, diseño de 2 módulos de 2x32GB cada uno </Caracteristica>
+            <Caracteristica>Velocidad de memoria del reloj de 6600MHz</Caracteristica>
+            <Caracteristica>Versión del perfil Intel Extreme Memory Profile 3.0</Caracteristica>
+            <Caracteristica>Tipo de enfriamiento: disipador térmico. Perfil SPD. Retroiluminación.</Caracteristica>
+            <Caracteristica>Certificado de sostenibilidad RoHS</Caracteristica>
+        </Características>
+
+    </Hardware>
+
+    <Hardware nombre = "Teclado">
+        <Modelo>Teclado Razer Huntsman V2 Analog Switch Ópticos Analógicos</Modelo>
+        <Tipo>Es un tipo de hardware de entrada</Tipo>
+        <Fabricante>Razer</Fabricante>
+        <Precio>412,95€</Precio>
+        <Caracteristicas>
+            <Caracteristica>Switches Analógicos de accionamiento rápido y preciso</Caracteristica>
+            <Caracteristica>Accionamiento regulable de altura desde 1,5 hasta los 3,6 mm</Caracteristica>
+            <Caracteristica>Entrada analógica de ocho direcciones con las teclas WASD. Capaces de registrar entradas de 360º</Caracteristica>
+            <Caracteristica>Accionamiento en dos pasos, posibilidad de configurar dos funciones en la misma tecla</Caracteristica>
+            <Caracteristica>Teclas de PBT de doble inyección, robustas y texturizadas más rígidas y duraderas</Caracteristica>
+            <Caracteristica>Tecnología Razer Chroma RGB con más de 16 millones de colores y amplia gama de efectos para elegir</Caracteristica>
+        </Características>
+
+    </Hardware>
+    <Hardware nombre = "Pantalla">
+        <Modelo>TSamsung Odyssey Neo G95NC 57" Quantum Mini-Led Dual UHD 240Hz FreeSync Premium Pro Curva</Modelo>
+        <Tipo>Es un tipo de hardware de salida</Tipo>
+        <Fabricante>Samnsung</Fabricante>
+        <Precio>2220,02€</Precio>
+        <Caracteristicas>
+            <Caracteristica>Pantalla Dual UHD inmersiva de 57"</Caracteristica>
+            <Caracteristica>Quantum Matrix Technology con tasa de refresco de 240Hz</Caracteristica>
+            <Caracteristica>EAMD FreeSync Premium Pro, acción sin interrupciones</Caracteristica>
+            <Caracteristica>Conectividad versátil DP 2.1, HDMI 2.1, USB Hub</Caracteristica>
+            <Caracteristica>Picture-by-picture y Picture-in-picture</Caracteristica>
+            <Caracteristica>Soporte ergonómico</Caracteristica>
+        </Características>
+    </Hardware>
+</Ordenador>

@@ -1,0 +1,97 @@
+<?xml versión= “1.0” ?>
+<!-- Yo he realizado la clasificatoria del torneo.-->
+<Torneo nombre = "Open de Madrid 2024">
+    <Fecha>El torneo se disputa del 2 al 6 de Octubre de 2024</Fecha>
+
+    <Tanda_1 nombre = "Clasificatoria">
+        <Partido nombre = "Pista 1">
+            <Fecha>02/10/24 12:00h</Fecha>
+            <Jugadores>
+                <Jugador>Jannik Sinner, 23, ITA, 11180 puntos ATP</Jugador>
+                <Jugador>Alexander Zverev, 27 ALE, 6875 puntos ATP</Jugador>
+                <Resultado>6-3,6-5,6-4</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 2">
+            <Fecha>02/10/24 11:00h</Fecha>
+            <Jugadores>
+                <Jugador>Carlos Alcaraz Garfia, 21, ESP, 6690 puntos ATP</Jugador>
+                <Jugador>Novak Djokovic, 37, SER, 5560 puntos ATP</Jugador>
+                <Resultado>6-1,2-6,6-2</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 3">
+            <Fecha>02/10/24 13:00h</Fecha>
+            <Jugadores>
+                <Jugador>Daniil Medvedev, 28, RUS, 5475 puntos ATP</Jugador>
+                <Jugador>Andrey Rublev, 26, RUS, 4645 puntos ATP</Jugador>
+                <Resultado>6-1,6-4,6-1</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 4">
+            <Fecha>02/10/24 12:30h</Fecha>
+            <Jugadores>
+                <Jugador>Taylor Harry Fritz, 26, EEUU, 4060 puntos ATP</Jugador>
+                <Jugador>Hubert Hurkacz, 27, POL, 4060 puntos ATP</Jugador>
+                <Resultado>3-6,6-4,6-1</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 5">
+            <Fecha>02/10/24 11:30h</Fecha>
+            <Jugadores>
+                <Jugador>Casper Ruud, 25, NOR, 4010 puntos ATP</Jugador>
+                <Jugador>Grigor Dimitrov, 33, BUL, 3920 puntos ATP</Jugador>
+                <Resultado>6-1,6-4,2-6</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 6">
+            <Fecha>02/10/24 14:30h</Fecha>
+            <Jugadores>
+                <Jugador>Álex de Minaur, AUS, 3635 puntos ATP</Jugador>
+                <Jugador>Stefanos Tsitsipas, 26, GRE, 3390</Jugador>
+                <Resultado>6-0,6-3,1-6</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 7">
+            <Fecha>02/10/24 15:30h</Fecha>
+            <Jugadores>
+                <Jugador>Tommy Paul, 27, EEUU, 3005 puntos ATP</Jugador>
+                <Jugador>Holger Rune, 21, DEN, 2780 puntos ATP</Jugador>
+                <Resultado>6-4,6-4,3-6</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 8">
+            <Fecha>02/10/24 12:00h</Fecha>
+            <Jugadores>
+                <Jugador>Francis Tiafoe, 26, EEUU, 2560 puntos ATP</Jugador>
+                <Jugador>Sebastian Korda, 24, EEUU, 2520 puntos ATP</Jugador>
+                <Resultado>6-4,2-6,2-6</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 9">
+            <Fecha>02/10/24 11:30h</Fecha>
+            <Jugadores>
+                <Jugador>Ben Shelton, 21, EEUU, 2490 puntos ATP</Jugador>
+                <Jugador>Lorenzo Musetti, 22, ITA, 2420 puntos ATP</Jugador>
+                <Resultado>6-0,3-6,6-4</Resultado>
+            </Jugadores>
+        </Partido>
+
+        <Partido nombre = "Pista 10">
+            <Fecha>02/10/24 11:30h</Fecha>
+            <Jugadores>
+                <Jugador>Ugo Humbert, 26, FRA, 2370 puntos ATP</Jugador>
+                <Jugador>Jack Draper, 22, UK, 2315 puntos ATP</Jugador>
+                <Resultado>6-3,1-6,0-6</Resultado>
+            </Jugadores>
+        </Partido>
+    </Tanda_1>
+</Torneo>

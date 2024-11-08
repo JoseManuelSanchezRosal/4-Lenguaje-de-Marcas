@@ -1,0 +1,116 @@
+<?xml versión= “1.0” ?>
+<Fichero nombre = "Centro Comercial">
+    <Tiendas>
+        <Tienda nombre = "Decimas">
+            <Parcela>2</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>3 y 4</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>5</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>6</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>7 y 8</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>9</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>10</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>11 y 12</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>13</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+        <Tienda nombre = "Decimas">
+            <Parcela>14</Parcela>
+            <Superficie>233m2</Superficie>
+            <Encargado>
+                <Nombre>Alberto</Nombre>
+                <Apellidos>Rodriguez Suárez</Apellidos>
+                <Telefono>655667878</Telefono>
+                <NºSS>877988099</NºSS>
+            </Encargado>
+        </Tienda>
+
+    </Tiendas>
+
+</Fichero>

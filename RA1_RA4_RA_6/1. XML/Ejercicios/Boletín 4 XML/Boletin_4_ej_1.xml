@@ -1,0 +1,48 @@
+<?xml versión= “1.0” ?>
+<Fichero nombre = "Libro">
+
+    <Titulo>La sombra del Viento</Titulo>
+    <Editorial>Planeta</Editorial>
+    <Autor>Agustín San Juan</Autor>
+    <Paginas>257</Paginas>
+
+    <Capitulos>
+        <Capitulo>
+            <Numero>1</Numero>
+            <Inicio>4</Inicio>
+            <Fin>36</Fin>
+        </Capitulo>
+
+        <Capitulo>
+            <Numero>2</Numero>
+            <Inicio>36</Inicio>
+            <Fin>88</Fin>
+        </Capitulo>
+
+        <Capitulo>
+            <Numero>3</Numero>
+            <Inicio>88</Inicio>
+            <Fin>145</Fin>
+        </Capitulo>
+
+        <Capitulo>
+            <Numero>4</Numero>
+            <Inicio>145</Inicio>
+            <Fin>177</Fin>
+        </Capitulo>
+
+        <Capitulo>
+            <Numero>5</Numero>
+            <Inicio>178</Inicio>
+            <Fin>211</Fin>
+        </Capitulo>
+
+        <Capitulo>
+            <Numero>6</Numero>
+            <Inicio>211</Inicio>
+            <Fin>250</Fin>
+        </Capitulo>
+
+    </Capitulos>
+    
+</Fichero>

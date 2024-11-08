@@ -1,0 +1,34 @@
+<?xml versión= “1.0” ?>
+
+<Ruta nombre = "Autobús Lúnea 1">
+    <Paradas>
+
+        <Parada>
+            <Nombre>Palma del Río, 09:00 horas</Nombre>
+
+        </Parada>
+        <Parada>
+            <Nombre>Céspedes</Nombre>
+            <Horario>10:00 horas</Horario>
+        </Parada>
+        <Parada>
+            <Nombre>Hornachuelos</Nombre>
+            <Horario>11:00 horas</Horario>
+        </Parada>
+        <Parada>
+            <Nombre>Posadas, 12:30 horas</Nombre>
+            <Horario>12:30 horas</Horario>
+        </Parada>
+        <Parada>
+            <Nombre>La Carlota</Nombre>
+            <Horario>13:30 horas</Horario>
+        </Parada>
+        <Parada>
+            <Nombre>Fuente Palmera</Nombre>
+            <Horario>15:00 horas</Horario>
+        </Parada>
+
+
+    </Paradas>
+
+</Ruta>

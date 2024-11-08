@@ -1,0 +1,50 @@
+<?xml versión= “1.0” ?>
+
+<Recetas nombre = "Recetas de la Abuela">
+
+    <Receta nombre = "Tortilla de papas">
+        <Ingredientes>
+            <Ingrediente>1 kilo de patatas</Ingrediente>
+            <Ingrediente>5 huevos</Ingrediente>
+            <Ingrediente>1 cebolla</Ingrediente>
+            <Ingrediente>Sal</Ingrediente>
+            <Ingrediente>Aceite</Ingrediente>
+        </Ingredientes>
+
+        <Pasos><!--Se puede definir el paso en el propio comentario, aunque es aconsejable darle el atributo "nombre" que queramos al elemento-->
+            <Paso numero="1">1. Ponemos la sartén a calentar a fuego medio con bastante aceite</Paso>
+            <Paso>2. Mientras se calienta el aceite, procederemos a pelar las patatas y cortarlas en finas rodajas</Paso>
+            <Paso>3. Después pelamos y cortamos la cebolla a finas rodajitas</Paso>
+            <Paso>4. Mezclamos las patatas junto con la cebolla y añadimos sal de forma generosa y lo echamos todo en la sartén</Paso>
+            <Paso>5. Una vez las patatas y la cebolla estén blanditas, sacamos todo y escurrimos bien de aceite</Paso>
+            <Paso>6. Ponemos de nuevo la sartén con una pizca de aceite a fuego medio</Paso>
+            <Paso>7. Rompemos los huevos y los mezclamos bien, añadiendo otra pizca de sal</Paso>
+            <Paso>8. Acto seguido mezclamos los huevos rotos con las patatas y la cebolla y añadimos todo a la sartén</Paso>
+            <Paso>9. Ir controlando que se vaya cuajando pero sin que llegue a quemarse</Paso>
+            <Paso>10. Cuando esté cuajadita procederemos a darle la vuelta sin que se nos caiga, ayudándonos de un plato llano grande</Paso>
+            <Paso>11. Dejarla unos minutitos hasta que la tortilla coja consistencia, quedando por fuera doradita y por dentro bien jugosa</Paso>
+            <Paso>12. Sacamos la tortilla al plato y ¡¡¡a disfrutar!!!</Paso>
+        </Pasos>
+    </Receta>
+
+    <Receta nombre = "Salmorejo Cordobés">
+        <Ingredientes>
+            <Ingrediente>4 tomates grandes</Ingrediente>
+            <Ingrediente>1 barra de pan</Ingrediente>
+            <Ingrediente>1/2 cebolla</Ingrediente>
+            <Ingrediente>Sal</Ingrediente>
+            <Ingrediente>Aceite</Ingrediente>
+            <Ingrediente>Vinagre</Ingrediente>
+            <Ingrediente>Agua</Ingrediente>
+        </Ingredientes>
+        
+        <Pasos>
+            <Paso>1. Pelamos la media cebolla y la echamos al recipiente</Paso>
+            <Paso>2. Pelamos los tomates y el diente de ajo y lo volcamos en el recipiente</Paso>
+            <Paso>3. Añadimos un poco de agua, aceite, sal y vinagre y lo batimos todo con la batidora a media velocidad</Paso>
+            <Paso>4. Cuando esté todo bien batido probarlo y añadir o no, mas agua, sal, aceite o vinagre</Paso>
+            <Paso>4. Servirse una buena ración y ¡¡¡a mojar mucho pan!!!</Paso>
+        </Pasos>
+    </Receta>
+
+</Recetas>
