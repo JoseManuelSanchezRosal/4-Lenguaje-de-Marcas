@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--DUDAS: centrado vertical de formulario, alineado izq o der de formularios en tabla, para poner campo obligatorio habria que hacer columna 7x1??,etc...-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LM_U2_T1:Basic_HTML_Ex3_JMSR</title>
+    <style>
+        .obligatorio{/* Para darle color rojo a los campos obligatorios, marcados con span(*) */
+            color: red;
+        }
+        table{
+            width: 40%;/*Anchura de la tabla*/  
+        }
+        table, td{
+            border-collapse: collapse;/*Para unir columnas y tabla entre si, jugar con el border-collapse de celdas y tabla*/
+        }
+        tr{
+            border: 2px solid black;
+            border-left: none; /* Elimina el borde izquierdo de las filas */
+            border-right: none; /* Elimina el borde derecho de las filas*/
+        }
+    </style>
+
+         
+</head>
+<body>
+    <h2>Formulario de reserva de salas</h2>
+    <table>
+        <tr style="background-color: rgb(175, 175, 175);"><!--Sombreado celdas impares en gris-->
+            <td>
+                <label for="nombre">Tu nombre:<span class="obligatorio">*</span></label>
+                
+            </td>
+            <td>
+                <form action="" method="">
+                    <input type="text" id="nombre" name="nombre" placeholder="nombre" required><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email">Tu correo electrónico:<span class="obligatorio">*</span></label>
+            </td>
+            <td>
+                <form action="" method="">
+                    <input type="text" id="correo electrónico" name="correo electrónico" placeholder="correo electrónico" required><br>
+                </form>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(175, 175, 175);">
+            <td>
+                <label for="dpto">Departamento:<span class="obligatorio">*</span></label>
+            </td>
+            <td>
+                <form action="" method="">
+                    <label for="opcion"></label>
+                    <select name="opcion" id="opcion">
+                        <option value="Ventas">Ventas</option>
+                        <option value="Compras">Compras</option>
+                        <option value="I+D+I">I+D+I</option>
+                        
+                    </select>
+                    <br><br>
+                </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="tipo_sala">Tipo de sala que desea reservar:<span class="obligatorio">*</span></label>
+            </td>
+            <td>
+                <form><!--Si queremos que solo un boton de los 3 pueda ser seleccionado en el formulario, debemos ponerles a los 3 el mismo nombre en el apartado "name"-->
+                    <input type="radio" id="Tipo A" name="Tipo A" value="Tipo A">
+                        <label for="Tipo A">Tipo A</label><br>
+                    <input type="radio" id="Tipo B" name="Tipo A" value="Tipo B">
+                        <label for="Tipo B">Tipo B</label><br>
+                    <input type="radio" id="Tipo C" name="Tipo A" value="Tipo C">
+                        <label for="Tipo C">Tipo C</label><br>
+                  </form>
+            </td>
+        </tr>
+        <tr style="background-color: rgb(175, 175, 175);">
+            <td>Requisitos extra:</td>
+            <td>
+                <form action="/submit" method="POST">
+                    <label>
+                        <input type="checkbox" name="opcion2" value="si">
+                        Caballete y bolígrafos
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="opcion2" value="si">
+                        Televisión
+                    </label><br>
+            
+                    <label>
+                        <input type="checkbox" name="opcion3" value="si">
+                        Café, té y agua
+                    </label><br>
+            </form>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="fecha">Fecha de la reserva:<span class="obligatorio">*</span></label>
+            </td>
+            <td>
+                <form action="" method="">
+                    <input type="text" id="fecha" name="fecha" placeholder="dd/mm/aaaa" required><br>
+
+            </td>
+        </tr>
+        <tr style="background-color: rgb(175, 175, 175);">
+            <td>
+                <label for="hora">Hora de la reserva:<span class="obligatorio">*</span></label>
+            </td>
+            <td>
+                <form action="" method="">
+                    <input type="text" id="hora" name="hora" placeholder="--:--" required><br>
+            </td>
+        </tr>
+    </table>   
+</body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table{
+            width: 70;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <!--Para asignar ancho uniforme a las celdas de cada columna-->
+        <colgroup>
+            <col style="width: 250px;"> 
+            <col style="width: 250px;">
+           
+          </colgroup>
+        <tr>
+            <td>
+                <h2>Unordered lists</h2>
+            </td>
+            <td>
+                <h2>Ordered lists</h2>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Disc</b>
+                <ul>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </td>
+            <td><b>Decimal</b>
+                <ol>
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </td>
+        </tr>
+
+        <tr>
+            <td><b>Square</b>
+                <!--Para cambiar punto a cuadrado en ul-->
+                <ul style="list-style-type: square;">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </td>
+            <!--Para anadir ceros-->
+            <td><b>Decimal with leading zeros</b>
+                <ol style="list-style-type: decimal-leading-zero;">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td><b>Circle</b>
+                <!--Para cambiar punto a circulo hueco en ul-->
+                <ul style="list-style-type: circle;">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </td>
+            <td><b>Lowercase ascii letters</b>
+                <ol type="a">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </td>
+        </tr>
+        <tr>
+            <td><b>None - no bullets</b>
+                <!--Para listar sin marca-->
+                <ul type="none">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ul>
+            </td>
+            <td><b>Lowercase roman numerals</b>
+                <ol type="i">
+                    <li>First item</li>
+                    <li>Second item</li>
+                    <li>Third item</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
