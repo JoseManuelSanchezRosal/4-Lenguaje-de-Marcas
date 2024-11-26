@@ -18,10 +18,6 @@
             width: 120px;
             font-size: 11px;
         }
-        .rotar-imagen {
-            transform: rotate(180deg); /* Rota la imagen 45 grados */
-            transform-origin: center;  /* Define el punto de origen de la rotación */
-        }
         
     </style>
 </head>
@@ -29,14 +25,17 @@
     <table>
 
         <tr>
-            <td rowspan="14">Conferencia ESTE</td>
-            <td>XXXXXXXX</td>
+            <td style="text-align: center ;" rowspan="14" bgcolor="red"><span style="writing-mode:vertical-lr;">Conferencia OESTE</span></td>
+            <td >XXXXXXXX</td>
             <td rowspan="2"></td>
-            <td colspan="4" rowspan="3">PLAY OFFS</td>
+            <td colspan="4" rowspan="3">
+                <img src="sources/playoffs.png" alt="PlayOffs">
+
+            </td>
             
             <td rowspan="2"></td>
             <td>XXXXXXXX</td>
-            <td rowspan="14">Conferencia OESTE</td>
+            <td style="text-align: center ;" rowspan="14" bgcolor="blue"><span style="writing-mode:sideways-lr;">Conferencia ESTE</span></td>
         </tr>
 
         <tr>
@@ -56,10 +55,10 @@
                 <img style="height:25px; width:50px" src="sources/Flecha.png" alt="Flecha hacia la derecha">
             </td>
             <td>XXXXXXXX</td>
-            class="rotar-imagen"
+        
             <td>XXXXXXXX</td>
             <td rowspan="2">
-                <img style="height:25px; width:50px" class="rotar-imagen" src="sources/Flecha.png" alt="Flecha hacia la izquierda">   
+                <img style="height:25px; width:50px; transform: rotate(180deg); transform-origin: center;" src="sources/Flecha.png" alt="Flecha hacia la izquierda">   
             </td>
            
         </tr>
@@ -82,7 +81,9 @@
                 <img style="height:25px; width:50px" src="sources/Flecha.png" alt="Flecha hacia la derecha">
             </td>
             
-            <td rowspan="6"> <img style="height:25px; width:50px" class="rotar-imagen" src="sources/Flecha.png" alt="Flecha hacia la izquierda">   </td>
+            <td rowspan="6">
+                <img style="height:25px; width:50px; transform: rotate(180deg); transform-origin: center;"src="sources/Flecha.png" alt="Flecha hacia la izquierda">
+            </td>
             <td>XXXXXXXX</td>
             
         </tr>
@@ -127,8 +128,8 @@
            
             <td>XXXXXXXX</td>
            
-            <td colspan="4">
-                <img style="height:25px; width:50px" rotate="90 degrees" src="sources/Flecha.png" alt="Flecha hacia la izquierda">  
+            <td colspan="4" s>
+                <img style="height:35px; width:25px; transform: rotate(90deg); transform-origin: center;"src="sources/Flecha.png" alt="Flecha hacia la izquierda">
             </td>
             
             
@@ -161,7 +162,7 @@
            
             <td>XXXXXXXX</td>
             <td rowspan="2">
-                <img style="height:25px; width:50px" class="rotar-imagen" src="sources/Flecha.png" alt="Flecha hacia la izquierda">   
+                <img style="height:25px; width:50px; transform: rotate(180deg); transform-origin: center;"src="sources/Flecha.png" alt="Flecha hacia la izquierda">
             </td>           
         </tr>
 
