@@ -1,0 +1,48 @@
+<style>
+        table{
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            border-collapse: collapse;
+            text-align: left;
+            height: 30px;
+            width: 120px;
+            font-size: 11px;
+        }
+    </style>
+    
+    <td style="text-align:center" rowspan="14" bgcolor="red"><span style="writing-mode:vertical-lr">CONFERENCIA OESTE</span></td>
+            <td>Equipo</td>
+            <td rowspan="2" ></td>
+            <td style="text-align: center;" colspan="4" rowspan="3" >
+                <img style="height: 90px;" src="sources/playoffs.png" alt="PlayOffs">
+            </td>
+
+<td style="text-align: center;" rowspan="14" bgcolor="blue"><span style="writing-mode: sideways-lr;" >CONFERENCIA ESTE</span></td>
+    
+<td style="text-align: center;" rowspan="2" >
+                <img style="height:25px; width:50px" src="sources/Flecha.png" alt="Flecha hacia la derecha">
+            </td>
+            
+            
+<td style="text-align: center;" rowspan="2" >
+                <img style="height:25px; width:50px; transform: rotate(180deg); transform-origin: center;" src="sources/Flecha.png" alt="Flecha hacia la izquierda">   
+            </td>
+            
+            
+            
+<td style="text-align: center;" colspan="4">
+                <img style="height:25px; width:25px; transform: rotate(90deg); transform-origin: center;" src="sources/Flecha.png" alt="Flecha hacia abajo">  
+            </td>
+            
+            
+<td style="text-align: center;" colspan="2" rowspan="2">
+                <form action="" method="">
+                    <input type="checkbox"/>
+                    <label for="nombre">Confirmar envio</label><br>
+                    <input value ="Enviar" type="submit"/>
+            </td>
+            
+<tr style="visibility: hidden; border:none">
+            <td style="visibility: hidden; border:none"></td>
