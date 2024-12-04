@@ -1,0 +1,36 @@
+body{
+    width: 100vw;/**Esto es el 100% de la pantalla activa.*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+table{/**Punto 7*/
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;/**Para alinear al centro texto e imagen*/
+    
+}
+td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    height: 30px;
+    width: 120px;
+}
+td:nth-child(1), th:nth-child(1) {/**Punto 1*/
+    background-color: #008000;
+  }
+  tr:nth-child(4) {/**Punto 2*/
+    background-color: #ffff00; /**Fondo amarillo claro */
+  }
+a{/**Punto 3a*/
+    text-decoration: none; /*Elimina el subrayado por defecto */
+}
+a:visited{/**Punto 3b*/
+    color: red;
+}
+a:link{/**Punto 3c*/
+    color: green;
+}
+table tr:hover td:nth-child(6) {/**NO FUNCIONA*/
+    font-size: 2em; /**Aumenta el tamaño de la fuente al doble */
+}

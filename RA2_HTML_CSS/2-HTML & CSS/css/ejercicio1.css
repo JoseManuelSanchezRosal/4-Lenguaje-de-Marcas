@@ -4,16 +4,40 @@ body{
     padding: 0;
     height: 100vh;
 }
-img{
+img{/**Punto 2*/
     height: 50px;
     width: 50px;
 }
-table{
+table{/**Punto 7*/
     border: 1px solid black;
     border-collapse: collapse;
+    text-align: center;/*Para alinear al centro texto e imagen*/
+    
 }
 td{
     border: 1px solid black;
     border-collapse: collapse;
     height: 50px;
+}
+.primeraFila{/**Punto 3*/
+    background-color: #fe0000;
+    color: white;
+}
+td[colspan = ]{
+    background-color: blue;
+}
+#gigabites{/**Punto 4*/
+    font-size: 30px;
+    background-color: #808080;
+}
+#textoenrojo{/**Punto 5*/
+    color:#fe0000;
+}
+#amarillo{/**Punto 6*/
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #ffff00;
+}
+td[colspan]{/**Punto 8*/
+    background-color: #0000fe;
 }

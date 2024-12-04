@@ -6,11 +6,12 @@
     <title>Ejercicio1_selectores</title>
     <link rel="stylesheet" href="css/ejercicio1.css">
 </head>
-<body>
+<body><!--Punto 1 (mi duda es que en el punto 1 dice centrar en pagina...)-->
+    <h1 style="text-align: center;">Ejercicio práctico con Tablas</h1>
     <table>
         <tr>
             <td></td>
-            <td colspan="3">
+            <td colspan="3" >
                 <img src="sources/mp3mini.jpg" alt="mp3 mini">
             </td>
             
@@ -21,18 +22,18 @@
             
         </tr>
         <tr>
-            <td>Capacidad</td>
-            <td>2GB</td>
-            <td>4GB</td>
-            <td>8GB</td>
-            <td>32GB</td>
-            <td>2GB</td>
+            <td class="primeraFila">Capacidad</td>
+            <td id="gigabites">2GB</td>
+            <td id="gigabites">4GB</td>
+            <td id="gigabites">8GB</td>
+            <td id="gigabites">32GB</td>
+            <td id="gigabites">2GB</td>
         </tr>
         <tr>
-            <td>Colores</td>
+            <td class="primeraFila">Colores</td>
             <td>Blanco</td>
             <td>
-                <ul>
+                <ul id="textoenrojo">
                     <li>Negro</li>
                     <li>Rosa</li>
                     <li>Dorado</li>
@@ -40,7 +41,7 @@
             </td>
             <td>Negro</td>
             <td colspan="2">
-                <ul>
+                <ul id="textoenrojo">
                     <li>Negro</li>
                     <li>Blanco</li>
                 </ul>
@@ -48,27 +49,27 @@
             
         </tr>
         <tr>
-            <td>Pantalla</td>
-            <td colspan="3">3 Pulgadas</td>
+            <td style="height: auto;" class="primeraFila">Pantalla</td>
+            <td style="height: auto;" colspan="3">3 Pulgadas</td>
             
             
-            <td colspan="2">7 pulgadas</td>
-            
-        </tr>
-        <tr>
-            <td rowspan="2">Tiempo de carga</td>
-            <td colspan="3" rowspan="2">1 hora</td>
-            
-            
-            <td colspan="2">5 horas</td>
+            <td style="height:auto;" colspan="2">7 pulgadas</td>
             
         </tr>
         <tr>
+            <td class="primeraFila" rowspan="2">Tiempo de carga</td>
+            <td style="text-align: center;" colspan="3" rowspan="2">1 hora</td>
+            
+            
+            <td id="amarillo" colspan="2">5 horas</td>
+            
+        </tr>
+        <tr>
             
             
             
             
-            <td colspan="2">30 minutos para 75%</td>
+            <td style="height:auto; width: 30px" colspan="2">30 minutos para 75%</td>
             
         </tr>
     </table>
