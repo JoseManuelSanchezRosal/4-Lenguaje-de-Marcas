@@ -1,0 +1,49 @@
+/**Flexboxlabs. Aplicación para generar HTML y CSS (para aprender)*/
+
+body{
+    width: 100vw;/** esto es el 100% de la pantalla activa.*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#wrapper{/**Padre*/
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-columns: 1fr 3fr;/**para las columnas*/
+    grid-template-rows: 1fr 4fr 1fr;/**para las filas*/
+    grid-template-areas: "cabecera cabecera"/**Si en lugar de cabecera ponermos un punto (.) se queda un espacion en blanco*/
+                         "menuLateral contenido"
+                         "piePagina piePagina";
+}
+#cabecera{/**hijo*/
+    grid-area: cabecera;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+padding: 0px 50px 0px 50px; /**padding entre hijos en orden arriba, derecha, abajo e izquierda (0, 50, 0, 50)*/
+    align-items: center;
+
+}
+#contenido{/**hijo*/
+    grid-area: contenido;
+    background-color: blue;
+}
+#menuLateral{/**hijo*/
+    grid-area: menuLateral;
+    background-color: peru;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+#menuLateral>button{
+    width: 25%;
+}
+#piePagina{/**hijo*/
+    grid-area: piePagina;
+    background-color: deeppink;
+}
+/**Para decirque que los TD's que tengan colspan de 2, el fondo sea azul*/
+td[colspan = 2]{
+    background-color: blue;
+}
