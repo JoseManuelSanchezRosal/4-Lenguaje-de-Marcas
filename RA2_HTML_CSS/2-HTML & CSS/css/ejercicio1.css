@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 img{/**Punto 2*/
     height: 50px;

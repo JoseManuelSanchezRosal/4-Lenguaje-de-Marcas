@@ -3,6 +3,9 @@ body{
     margin: 0;
     padding: 0;
     height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 table{/**Punto 7*/
     border: 1px solid black;
@@ -14,7 +17,7 @@ td{
     border: 1px solid black;
     border-collapse: collapse;
     height: 30px;
-    width: 120px;
+    width: 150px;
 }
 td:nth-child(1), th:nth-child(1) {/**Punto 1*/
     background-color: #008000;
@@ -31,6 +34,25 @@ a:visited{/**Punto 3b*/
 a:link{/**Punto 3c*/
     color: green;
 }
-table tr:hover td:nth-child(6) {/**NO FUNCIONA*/
+.letradoble:hover{/**Punto 4*/
     font-size: 2em; /**Aumenta el tamaño de la fuente al doble */
+}
+th::first-letter {/**Punto 5*/
+    font-size: 2em; /**Hace que la primera letra sea el doble de tamaño */
+}
+th{/**Ponerle borde al TH (titulos)*/
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+input[required]{/**Punto 6*/
+    border: 1px solid red;  /**Borde rojo de 2px */
+    padding: 10px;            /**Añadir algo de espacio interno (opcional) */
+    margin-bottom: 10px;      /**Separar el borde del siguiente elemento */
+}
+label.required::after {/**Punto 7*/
+    content: " *";
+    color: red;
+    font-weight: bold;
+    margin-left: 5px; /**Añade un pequeño espacio entre la etiqueta y el asterisco */
 }
