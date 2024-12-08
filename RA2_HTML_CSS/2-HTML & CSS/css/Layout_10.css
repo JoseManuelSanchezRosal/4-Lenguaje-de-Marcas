@@ -1,0 +1,108 @@
+body{
+    width: 100vw;/** esto es el 100% de la pantalla activa.*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    
+}
+#wrapper{/**Padre*/
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 7fr 17fr;/**para las filas*/
+    grid-template-areas: "cabecera"/**Si en lugar de cabecera ponermos un punto (.) se queda un espacion en blanco*/
+                         "cuerpo"                
+}
+#cabecera{/**hijo*/
+    grid-area: cabecera;
+    background-color:#3a4131;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 50px 0px 300px; /**padding entre hijos en orden arriba, derecha, abajo e izquierda (0, 50, 0, 50)*/
+    align-items: center;
+}
+#cuerpo{/**hijo*/
+    grid-area: cuerpo;
+    background-color: #ba9561;
+    display: grid;
+    grid-template-rows: 15fr;
+    grid-template-areas:".formulario";
+    align-items:flex-end;
+    
+    
+                       
+}
+h1{
+    font-style:normal;
+    color: white;
+    font-size: 65px;
+    margin-bottom: 2px;
+    margin-top: 0px;
+    margin-right: 50px;
+    line-height: 1;
+
+}
+span{
+    font-size: 25px;
+    color: white;
+}
+#logo{
+    width: 220px;  /* Cambia el ancho de la imagen */
+    height: 220px;
+}
+#lugares{
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+    margin-left: 250px;
+}
+h2{
+    font-style:normal;
+    font-size: 38px;
+    margin-left: 250px;
+    margin-top: 30px;
+}
+p{
+    margin-left: 250px;
+    font-style: oblique;
+    font-size: 25px;
+}
+#formulario{
+    grid-area: formulario;
+    width: 80%;
+    height: 92%;
+    padding-bottom: 0px;    
+    display: grid;
+    grid-template-rows: 4fr 11fr;
+    grid-template-areas:"primeraFila"
+                        "segundaFila";
+    justify-content: center;
+
+    
+    
+}   
+#primeraFila{
+    grid-area: primeraFila;
+    background-color:#3a4131;
+    display: grid;
+    padding: 0px 0px 0px 0px; /**padding entre hijos en orden arriba, derecha, abajo e izquierda (0, 50, 0, 50)*/
+    align-items: center;
+    font-size: 25px;
+    color: white;
+}
+#segundaFila{
+    grid-area: segundaFila;
+    background-color: #bbbbbb;
+    display: grid;
+    padding: 0px 0px 0px 0px; /**padding entre hijos en orden arriba, derecha, abajo e izquierda (0, 50, 0, 50)*/
+    align-items: center;
+}
+table{
+    
+    border-collapse: collapse;
+    background-color: #bbbbbb;
+}
+td{
+    height: 100px;
+   
+}
