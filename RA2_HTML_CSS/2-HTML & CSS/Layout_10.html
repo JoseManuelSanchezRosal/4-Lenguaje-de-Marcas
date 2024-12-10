@@ -1,7 +1,7 @@
 <!doctype html>
 <html class="no-js" lang="">
     <head>
-        <title>Grid y Flex</title>
+        <title>Layout 10</title>
         <link rel="stylesheet" href="css/Layout_10.css">
     </head>
     
@@ -39,20 +39,21 @@
                             <table>
                                 <tr>
                                     <td>
-                                        <label for="name" class="required">Name</label><br>
-                                        <input type="text" name="name" required>
+                                        <label for="name" class="required">Name<span class="asterisco">*</span></label><br>
+                                        <input class="campoancho" type="text" name="name" required>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label for="name" class="required">Email</label><br>
-                                        <input type="text" name="name" required>
+                                        <label for="name" class="required">Email<span class="asterisco">*</span></label><br>
+                                        <input class="campoancho" type="text" name="name" required>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td>
-                                        <label for="estado" class="required">Estado</label>
+                                        <label for="estado" class="required">Estado<span class="asterisco">*</span></label><br>
                                         <select class=""name="estado">
+                                            <option value="seleccione">Seleccione</option>
                                             <option value="soltero">Soltero</option>
                                             <option value="casado">Casado</option>
                                         </select>
@@ -68,7 +69,8 @@
                                         <input type="checkbox" value="Descenso">
                                         <label for="Descenso">Descenso</label>
                                         <input type="checkbox" value="Escalada">
-                                        <label for="Escalada">Escalada</label>
+                                        <label for="Escalada">Escalada</label><br>
+                                        <input type="submit" name="Enviar">
                                     </td>
                                 </tr>
                             </table>
