@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+#wrapper{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 2fr 10fr 3fr;
+    grid-template-areas:"cabecera"
+                        "nav"
+                        "main"
+                        "footer";
+
+}
+#cabecera{
+    grid-area:cabecera;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "centum support";
+    width: 50%;
+}
+#centum{
+    grid-area: cemtum;
+    align-items: left;
+}
+#support{
+    grid-area: support;
+    text-align: right;
+    align-items:end;
+}
+
+#nav{
+    grid-area: nav;
+    display: flex;
+    align-items: center;
+}
+#main{
+    grid-area: main;
+    
+}
+#footer{
+    grid-area: footer;
+    display: flex;
+    align-items: center;
+}
