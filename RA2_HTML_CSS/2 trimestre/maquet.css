@@ -1,0 +1,58 @@
+body{
+    width: 100vw;/** esto es el 100% de la pantalla activa.*/
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#wrapper{/**Padre*/
+    width: 100%;
+    display: grid;
+    height: 100%;
+    grid-template-rows: 3.5fr 1.5fr 20fr 2fr;/**para las filas*/
+    grid-template-areas: "cabecera"/**Si en lugar de cabecera ponermos un punto (.) se queda un espacion en blanco*/
+                         "menu"
+                         "cuerpo"
+                         "pie";
+}
+
+#cabecera{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+    color: white;
+}
+#identcab{
+    text-align: right;
+    margin-left: 1300px;
+    margin-top: 50px;
+}
+
+#menu{
+    width: 100vw;
+    display: flex;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.menusep{
+    margin-right: 15px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+#cuerpo{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+
+#menuPrincipal{
+    background-color: grey;
+    padding: 10px;
+}
+
+#pie{
+    width: 100vw;
+    display: flex;
+    background-color: black;
+}
