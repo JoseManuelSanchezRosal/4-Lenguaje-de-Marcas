@@ -1,8 +1,8 @@
 body{
-    width: 100vw;/** esto es el 100% de la pantalla activa.*/
+    width: 95vw;/** esto es el 100% de la pantalla activa.*/
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 95vh;
 }
 #wrapper{/**Padre*/
     width: 100%;
@@ -16,43 +16,96 @@ body{
 }
 
 #cabecera{
-    width: 100vw;
+    width: 95vw;
     display: flex;
+    flex-direction: row;
     background-color: black;
+    margin-top: 20px;
+    margin-left: 30px;
     color: white;
+    justify-content: center;
+    border-radius: 20px 20px 0px 0px;
+    gap: 1150px;
 }
+
+#moodle{
+    margin-top: 10px;
+}
+
 #identcab{
     text-align: right;
-    margin-left: 1300px;
-    margin-top: 50px;
+    margin-left: 30px;
+    margin-top: 60px;
 }
 
 #menu{
-    width: 100vw;
+    width: 95vw;
+    margin-left: 30px;
     display: flex;
     background-color: darkolivegreen;
     color: white;
 }
 
 .menusep{
+    margin-left: 20px;
     margin-right: 15px;
-    margin-top: 8px;
-    margin-bottom: 8px;
+    margin-top: 15px;
+    margin-bottom: 10px;
 }
 
 #cuerpo{
-    width: 100vw;
+    width: 95vw;
+    margin-left: 30px;
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 250px;
 }
 
 #menuPrincipal{
     background-color: grey;
+    margin-left: 40px;
     padding: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+    align-self: flex-start;
+}
+#centro{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+}
+
+
+#calendario{
+    background-color: grey;
+    padding: 10px;
+    padding-top: 20px;
+    margin-top: 30px;
+    align-self: flex-start;
+    width: 200px;
+    margin-right: 40px;
+    
 }
 
 #pie{
-    width: 100vw;
+    margin-top: 5px;
+    margin-left: 30px;
+    width: 95vw;
     display: flex;
+    flex-direction: column;
     background-color: black;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    border-radius: 0px 0px 20px 20px;
+}
+.logo{
+    height: 40px;
+    width: 120px;
+    margin-bottom: 10px;
 }
