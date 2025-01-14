@@ -80,6 +80,24 @@ body{
     background-color: aqua;
 }
 
+#imagen{
+    width: 80%;
+    align-self: center;
+    margin-top: 20px;
+}
+
+#categorias{
+    width: 100%;
+    background-color: grey;
+    height: 30px;
+}
+
+#cursosar{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+}
+
 
 #calendario{
     background-color: grey;
