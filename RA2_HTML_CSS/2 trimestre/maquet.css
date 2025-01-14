@@ -42,7 +42,7 @@ body{
     width: 95vw;
     margin-left: 30px;
     display: flex;
-    background-color: darkolivegreen;
+    background-color: #697f55;
     color: white;
 }
 
@@ -74,7 +74,7 @@ body{
 }
 
 #menuPrincipal{
-    background-color: rgb(207, 189, 189);
+    background-color: #c8c9c7;
     margin-left: 40px;
     padding: 10px;
     padding-top: 20px;
@@ -99,7 +99,7 @@ body{
 
 #categorias{
     width: 100%;
-    background-color: rgb(207, 189, 189);
+    background-color: #dddddd;
     height: 30px;
     border-bottom: 4px solid darkolivegreen;
     
@@ -113,7 +113,7 @@ body{
     align-items: center;
     align-content: center;
     gap: 600px;
-    background-color: rgb(207, 189, 189);
+    background-color: #dddddd;
     color: darkolivegreen;
     margin-top: 10px;
     border: 2px solid darkolivegreen;
@@ -128,7 +128,7 @@ body{
 
 
 #calendario{
-    background-color: rgb(207, 189, 189);
+    background-color: #c8c9c7;
     padding: 10px;
     padding-top: 20px;
     margin-top: 30px;
