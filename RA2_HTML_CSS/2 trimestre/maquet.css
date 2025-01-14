@@ -66,48 +66,68 @@ body{
 }
 
 #menuPrincipal{
-    background-color: grey;
+    background-color: rgb(207, 189, 189);
     margin-left: 40px;
     padding: 10px;
     padding-top: 20px;
     margin-top: 30px;
     align-self: flex-start;
+    border-radius: 10px 10px 10px 10px;
 }
+
 #centro{
     width: 80vw;
     display: flex;
     flex-direction: column;
-    background-color: aqua;
+   
 }
 
 #imagen{
     width: 80%;
     align-self: center;
     margin-top: 20px;
+    margin-bottom: 70px;
 }
 
 #categorias{
     width: 100%;
-    background-color: grey;
+    background-color: rgb(207, 189, 189);
     height: 30px;
+    border-bottom: 4px solid darkolivegreen;
+    
 }
 
 #cursosar{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 600px;
+    background-color: rgb(207, 189, 189);
+    color: darkolivegreen;
+    margin-top: 10px;
+    border: 2px solid darkolivegreen;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+}
+
+#arbol{
+    width: 150px;
+    height: 150px;
 }
 
 
 #calendario{
-    background-color: grey;
+    background-color: rgb(207, 189, 189);
     padding: 10px;
     padding-top: 20px;
     margin-top: 30px;
     align-self: flex-start;
     width: 200px;
     margin-right: 40px;
-    
+    border-radius: 10px 10px 10px 10px;
 }
 
 #pie{
@@ -122,8 +142,14 @@ body{
     align-items: center;
     border-radius: 0px 0px 20px 20px;
 }
+
 .logo{
     height: 40px;
     width: 120px;
     margin-bottom: 10px;
+}
+
+.parentesis{
+    color: black;
+    font-weight: bold;
 }
