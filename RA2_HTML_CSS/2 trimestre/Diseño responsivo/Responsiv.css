@@ -1,0 +1,70 @@
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+#wrapper{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#clubw{
+    
+    background-color: black;
+    color: white;
+}
+#year{
+   
+    background-color: antiquewhite;
+    text-align: center;
+}
+#centro{
+    background-color: antiquewhite;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+#centro #fototexto,
+#centro #formulario {/*Esto sería para que cada item ocupe un espacio, mida al menos 300px y tenga margen de 10px*/
+    flex: 1;
+    min-width: 300px;
+    margin: 10px;
+}
+#formulario form{
+    background-color: white;
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    max-width: 600px;
+}
+#pie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+#imagen{
+   width: 600px;
+}
+@media (max-width: 769px){
+    #centro{
+        display: flex;
+        flex-direction: column;
+    }
+    #pie{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media (min-width: 769px) and (max-width: 1024px){
+    #centro{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    #pie{
+        display: flex;
+        flex-direction: row;
+    }
+}
