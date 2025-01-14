@@ -51,6 +51,14 @@ body{
     margin-right: 15px;
     margin-top: 15px;
     margin-bottom: 10px;
+
+}
+
+.menusep:hover{
+    background-color:white;
+    color:  darkolivegreen;
+    font-size: 30px;
+    transition: font-size 0.5s ease;
 }
 
 #cuerpo{
