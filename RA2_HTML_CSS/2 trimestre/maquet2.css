@@ -1,0 +1,162 @@
+#body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+#wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  
+}
+
+#cabecera{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#css{
+    flex: 3;
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 0px;
+}
+#fecha{
+    flex: 1;
+    background-color: white;
+    color: black;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+  
+}
+
+#navegador{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    margin-top: 0px;
+    height: 10px;
+    align-items: center;
+    padding-left: 0px;
+
+}
+
+.menu{
+    margin-left: 50px;
+    list-style: none;
+}
+
+#cuerpo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+
+#noticias{
+    align-content: baseline;
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+}
+
+#centro{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    margin: 0;
+    text-align: center;
+}
+
+#centro1{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: gray;
+    padding: 10px;
+    margin: 0;
+}
+
+#formulario{
+    width: 40%;
+    display: flex;
+    align-items: end;
+    flex-direction: column;
+    flex: 2;
+    width: 30%;
+}
+
+#img{
+    width: 100%;
+}
+
+#pie{
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin-top: 0px;
+    height: 30px;
+    align-items: center;
+   
+    
+}
+
+#izquierda{
+    text-align: center;
+    margin-top: 0px;
+    width: 40%;
+    background-color: black;
+    color: white;
+    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+
+}
+
+#derecha{
+    text-align: center;
+    margin-top: 0px;
+    width: 40%;
+    background-color: black;
+    color: white;
+}
+
+.gris{
+    width: 40%;
+    background-color: grey;
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+    
+}
+
+.blanco{
+    width: 40%;
+    background-color: white;
+    list-style: none;
+    
+}
+.ultimo{
+    width: 40%;
+    height: 150px;
+    background-color: grey;
+    list-style: none;
+    margin-bottom: 0px;
+}
+
+#ul{
+    padding: 0px;
+}
