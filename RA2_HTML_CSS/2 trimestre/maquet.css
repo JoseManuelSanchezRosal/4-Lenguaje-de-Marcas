@@ -70,7 +70,7 @@ body{
     justify-content: center;
     align-items: center;
     align-content: center;
-    gap: 250px;
+    gap: 240px;
 }
 
 #menuPrincipal{
@@ -122,6 +122,7 @@ body{
 }
 
 #arbol{
+    margin-top: 60px;
     width: 150px;
     height: 150px;
 }
