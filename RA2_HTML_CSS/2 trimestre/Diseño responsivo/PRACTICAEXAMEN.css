@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1.2rem;
+    height: 100vh;
+ 
+}
+.grid-container>*{/*Para dar estilo al padre y a los hijos ">*"*/
+    box-shadow: -1px 1px 7px 0px black;/*Para dar sombras*/
+    border-radius: 5px;/*Para dar borde a las esquinas*/
+    padding: 4px;
+    text-align: center;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template:"header"100px
+                  "navbar"50px
+                  "main"auto
+                  "sidebar"50px
+                  "footer"100px
+}
+.header{
+    grid-area: header;
+    background-color:rgb(100, 69, 240);
+}
+.navbar{
+    grid-area: navbar;
+    background-color: rgb(176, 255, 176);
+}
+.main{
+    grid-area: main;
+    background-color: white;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: pink;
+}
+.footer{
+    grid-area: footer;
+    background-color: gray;
+}
+
+@media (min-width: 600px){
+    .grid-container{
+        grid-template:  "header  header"100px/*alto de fila*/
+                        "navbar  navbar"50px/*alto de fila*/
+                        "sidebar main"auto/*alto de fila*/
+                        "footer  footer"100px//*alto de fila*/
+                        200px auto;/*ancho de columnas (200px la primera y auto la segunda)*/
+    }
+}
+@media (min-width: 1000px){
+    .grid-container{
+        grid-template:  "header  header  header"100px/*alto de fila*/
+                        "navbar  main    sidebar"auto/*alto de fila*/
+                        "footer  footer  footer"100px//*alto de fila*/
+                        200px auto 200px;/*ancho de columnas (200px la primera y auto la segunda)*/
+    }
+}
