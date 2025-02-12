@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Notas</title>
+    
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .note-container {
+            margin-top: 20px;
+        }
+        .note {
+            border: 1px solid #ddd;
+            padding: 10px;
+            margin: 5px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .note button {
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="menu">
+        <button onclick="showArrayVersion()">Versión Array</button>
+        <button onclick="showClassVersion()">Versión Clases</button>
+    </div>
+
+    <div id="app">
+        <!-- Aquí se cargará la aplicación -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
