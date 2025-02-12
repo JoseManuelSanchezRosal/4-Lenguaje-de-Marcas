@@ -8,12 +8,13 @@
 
     <style>/*METEMOS ESTILOS IN-LINE*/
         #contenedor{
-            font-size: 50px;
+            font-size: 35px;
         }
     </style>
 
     <body>
         <form>
+            <label for="texto">Ingrese Nombre a Guardar:</label><br>
             <input type="texto" id="texto" name="texto" required><!--En ID hay que poner el mismo que en el getElementById("texto")-->
             <button type="button" onclick="agregarTexto()">Añadir</button><!--El método ONCLIK sirve una FUNCION determinada en script, en este caso agregar texto a un contenedor-->
         </form>
