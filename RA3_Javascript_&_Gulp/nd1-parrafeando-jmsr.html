@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ND1-Parrafeando-JMSR</title>
+    </head>
+
+    <style>/*METEMOS ESTILOS IN-LINE*/
+        #contenedor{
+            font-size: 50px;
+        }
+    </style>
+
+    <body>
+        <form>
+            <input type="texto" id="texto" name="texto" required><!--En ID hay que poner el mismo que en el getElementById("texto")-->
+            <button type="button" onclick="agregarTexto()">Añadir</button><!--El método ONCLIK sirve una FUNCION determinada en script, en este caso agregar texto a un contenedor-->
+        </form>
+
+        <div id="contenedor"><!--Contenedor vacío donde agregaremos los párrafos-->
+        </div>
+
+        <script>/*Arbimos script*/
+            function agregarTexto() {//Creamos la función agregarTexto():
+                let inputTexto = document.getElementById("texto").value;//Con LET cogemos el campo de entrada del input con ID="texto" y lo guardamos en "inputTexto"
+                if (inputTexto.trim() !== "") {//Si la entrada de texto está vacía y sin espacios (.trim):
+                    let nuevoParrafo = document.createElement("p");//Creamos nuevo párrafo en el documento
+                    nuevoParrafo.textContent = inputTexto;//Con .textContent asignamos el texto guardado en inputTexto al nuevo parrafo creado.
+                    document.getElementById("contenedor").appendChild(nuevoParrafo);//Agregamos el nuevo párrafo al elemento que queramos, en este caso nuestro DIV vacío.
+                    document.getElementById("texto").value = ""; // Limpiar el campo tras cada adición de nuevos párrafos a nuestro DIV (así nos evitamos tener que borrarlo)
+                }
+            }
+        </script>
+    </body>
+</html>
