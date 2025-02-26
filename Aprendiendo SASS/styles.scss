@@ -1,0 +1,19 @@
+// Definimos variables para colores. Las variables se definen con el $ delante
+$primary-color: white;
+$background-color: blue;
+
+// Aplicamos ajustes iniciales por defecto a todos los elementos
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+// Aplicamos los colores a los elementos del body
+body {
+    width: 400px;
+    background-color: $background-color;
+    color: $primary-color;
+    text-align: center;
+    padding:50px;
+}
