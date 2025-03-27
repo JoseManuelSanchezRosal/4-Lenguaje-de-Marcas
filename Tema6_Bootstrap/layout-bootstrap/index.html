@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Bootstrap CSS (archivo local) Se recomienda usar enlace archivo local por si la CDN (Content Delivery Network) cambia-->  
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!--Estilos en HTML-->
+        <style>
+            body {
+                background-image: url("fondoimagen.jpg");
+                background-size: cover; 
+                background-position: center; 
+                background-repeat: no-repeat; 
+            }
+            .form-container {
+                max-width: 400px;
+                background: white;
+                padding: 30px;
+                border-radius: 10px;
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+                margin: 50px auto;
+            }
+            .btn-primary {
+                background-color: #ff0080;
+                border: none;
+            }
+            .btn-primary:hover {
+                background-color: #e60073;
+            }
+        </style>
+    </head>
+
+    <body>
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link" href="#">Cities</a>
+                        <a class="nav-link" href="#">Drive</a>
+                        <a class="nav-link" href="#">Blog</a>
+                        <a class="nav-link" href="#">Partners</a>
+                        <a class="nav-link" href="#">Help</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container mt-5">
+            <div class="row align-items-center"> 
+                <!--Texto Grande-->
+                <div class="col-lg-6 text-center text-lg-start mb-4 mb-lg-0">
+                    <h1 class="display-1 text-black fw-bold">Make up to 35$/hr <br> Driving Your Car</h1>
+                </div>
+                <!-- Formulario -->
+                <div class="col-lg-6">
+                    <div class="form-container">
+                        <h2 class="fw-bold">Apply Now</h2>
+                        <p>Enter your info, and then download the Lyft app to create your driver profile.</p>
+                        <form>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="First name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Last name" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="email" class="form-control" placeholder="Email address" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="City" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="tel" class="form-control" placeholder="Phone number" required>
+                            </div>
+                            <div class="mb-3">
+                                <input type="text" class="form-control" placeholder="Promo Code (optional)">
+                            </div>
+                            <div class="form-check mb-3">
+                                <input class="form-check-input" type="checkbox" id="terms">
+                                <label class="form-check-label" for="terms">
+                                    I agree to the <a href="#" class="text-decoration-none">Lyft terms</a>.
+                                </label>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">BECOME A DRIVER</button>
+                            <p class="mt-3 text-center">
+                                Already applied? <a href="#" class="text-decoration-none text-danger">Check the status of your application here.</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Footer-->
+        <footer class="py-4" style="background-color: #dfe3eb;">
+            <div class="container text-center">
+                <h2 class="fw-bold">See How Much You Can Make</h2>
+                <p>How many hours do you want to drive this week?</p>
+                <div class="row justify-content-center">
+                    <div class="col-md-3">
+                        <input type="number" class="form-control" placeholder="Hours">
+                    </div>
+                    <div class="col-md-3">
+                        <input type="text" class="form-control" placeholder="City">
+                    </div>
+                    <div class="col-md-2">
+                        <button class="btn btn-primary w-100" style="background-color: #ff0080; border: none;">CALCULATE</button>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--Script para cargar elementos JS-->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
