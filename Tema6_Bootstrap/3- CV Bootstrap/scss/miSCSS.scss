@@ -1,0 +1,20 @@
+// Sobrescribir las variables customizadas
+$primary: #6A1B9A;
+$secondary: #FFC107;
+$body-bg: #f8f2fa;
+$body-color: #333;
+$font-family-base: 'Segoe UI', sans-serif;
+$border-radius: 1rem;
+$card-bg: #ffffff;
+$card-border-radius: 1rem;
+$headings-color: $primary;
+$paragraph-margin-bottom: 0.75rem;
+
+
+// Ahora importamos Bootstrap SCSS
+@import "bootstrap/bootstrap";
+
+
+body{
+    height: 100vh;
+}
