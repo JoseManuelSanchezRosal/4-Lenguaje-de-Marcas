@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>CV-js.fetch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cv-wrapper">
+        <aside class="sidebar">
+            <img src="sources/FotoCV.jpg" alt="Foto de José Manuel" class="foto-perfil">
+            <h1>José Manuel Sánchez Rosal</h1>
+            <div class="contacto">
+                <p><a href="https://github.com/JoseManuelSanchezRosal" target="_blank">GitHub</a></p>
+                <p><a href="https://www.linkedin.com/in/jos%C3%A9-manuel-s%C3%A1nchez-rosal-863803114/" target="_blank">LinkedIn</a></p>
+                <p><a href="mailto:j.manuel25@outlook.es">eMail</a></p>
+                
+            </div>
+        </aside>
+        <main class="contenido-principal">
+            <div class="botones">
+                <button data-section="sobre_mi">Sobre mí</button>
+                <button data-section="formacion">Formación</button>
+                <button data-section="experiencia">Experiencia</button>
+                <button data-section="actitudes">Actitudes</button>
+                <button data-section="habilidades">Habilidades</button>
+            </div>
+            <div class="contenido-box">
+                <div id="contenido-imagen">
+                    <img src="sources/inicial.jpg" alt="Sección inicial" id="img-seccion">
+                </div>
+                <div id="contenido-texto">
+                    <p>Haz clic en un botón para ver la información.</p>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

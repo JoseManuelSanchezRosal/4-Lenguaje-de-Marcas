@@ -17,3 +17,11 @@ body {
 h1{
     color: yellow;
 }
+.eliminar {
+    margin-top: 5px;
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}

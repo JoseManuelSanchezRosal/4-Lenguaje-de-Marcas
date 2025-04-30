@@ -19,14 +19,23 @@ document.querySelector('.button').addEventListener('click', () => {
     h1.textContent = 'QUIERO MI 10!!! MIKE';
     contenedor.appendChild(h1);
         // Recorremos los productos y creamos un elemento div para cada uno.
-        for (let i = 0; i < Math.min(productos.length, 10); i++) {
-        
-            const producto = productos[i]; // Obtenemos el producto actual
-            const nombre = producto.getElementsByTagName('Nombre')[0].textContent;// Obtenemos el nombre del producto
-            const precio = producto.getElementsByTagName('Precio')[0].textContent;// Obtenemos el precio del producto
+        // Declaramos las variables fuera del bucle for para evitar que se repitan en cada iteración (Esto es importante para evitar problemas de alcance y mantener el código limpio):
+        const productosLength = productos.length;
+        let producto;
+        let nombre;
+        let precio;
+        let etiquetas;
+        let etiquetasTexto;
+        let etiquetasLength;
+        for (let i = 0; i < productos.length; i++) {
+            producto = productos[i]; // Obtenemos el producto actual
+            nombre = producto.getElementsByTagName('Nombre')[0].textContent;// Obtenemos el nombre del producto.
+            precio = producto.getElementsByTagName('Precio')[0].textContent;// Obtenemos el precio del producto
   
-            const etiquetas = producto.getElementsByTagName('Etiqueta');
-            let etiquetasTexto = [];//Necesitamos otro bucle for para las etiquetas, ya que son varios elementos.
+            etiquetas = producto.getElementsByTagName('Etiqueta');
+            etiquetasTexto = [];// Creamos un array para almacenar las etiquetas de cada producto.
+            etiquetasLength = etiquetas.length;// Obtenemos la longitud del array etiquetas.
+            // Recorremos las etiquetas y las almacenamos en el array etiquetasTexto:
             for (let j = 0; j < etiquetas.length; j++) {
                 etiquetasTexto.push(etiquetas[j].textContent);// Apendamos el contenido de cada etiqueta al array etiquetasTexto.
             }
