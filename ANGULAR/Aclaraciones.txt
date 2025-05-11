@@ -1,0 +1,30 @@
+INSTALACIÓN: npm install -g @angular/cli
+para ver versión: ng version
+crear nuevo proyecto: ng new holamundo
+para hacerlo funcionar: ng serve
+
+Qué necesitas: paciencia
+
+
+IDE necesario:
+VSCODE
+
+
+Crear componente:
+Para crear componente en consola: ng generate component ejemplo (se generaría):
+ejemplo.component.css
+ejemplo.component.html
+ejemplo.component.spec.ts (no se toca)
+ejemplo.component.ts congirurar imports (controlador)
+
+
+
+aquí debemos importar y exportar nuestro componente ejemplo:
+app.routes.ts: aquí hacemos el export con nuestro {path: 'Ejemplo', component: ejemploComponent}
+
+
+
+Enlaces:
+Lenguajes involucrados:
+
+MIRAR COMO DARLE ESTILOS AL CSS PROPIO DEL COMPONENTE

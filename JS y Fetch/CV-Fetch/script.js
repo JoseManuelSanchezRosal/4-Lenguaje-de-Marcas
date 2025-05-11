@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const imagenes = {
         sobre_mi: "sources/sobremi.png",
-        formacion: "sources/logoestudios.jpeg",
+        formacion: "sources/logoestudios.png",
         experiencia: "sources/logotrabajo.png",
         actitudes: "sources/logoactitudes.png",
         habilidades: "sources/logohabilidades.png"
