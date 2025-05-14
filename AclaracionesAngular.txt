@@ -28,3 +28,7 @@ Enlaces:
 Lenguajes involucrados:
 
 MIRAR COMO DARLE ESTILOS AL CSS PROPIO DEL COMPONENTE
+0- opcional (angular material) "ng add @angular/material"
+1- crear proyecto
+2- crear componentes
+3- component.ts poner "standalone: true,"

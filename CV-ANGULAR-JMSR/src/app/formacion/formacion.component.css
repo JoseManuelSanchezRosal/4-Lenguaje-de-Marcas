@@ -1,0 +1,79 @@
+/* Estilos generales para la sección */
+.formacion-academica {
+    background-color: #f9f9f9; /* Fondo claro */
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  
+  /* Título de la sección */
+  .formacion-academica h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Lista de formaciones */
+  .lista-formacion {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Cada ítem de la lista */
+  .lista-formacion li {
+    background-color: #ffffff;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #4CAF50; /* Color distintivo */
+    border-radius: 4px;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  /* Efecto al pasar el cursor */
+  .lista-formacion li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Título de cada formación */
+  .lista-formacion h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.25rem;
+    color: #222;
+  }
+  
+  /* Detalles de cada formación */
+  .lista-formacion p {
+    margin: 0.25rem 0;
+    color: #555;
+    font-size: 0.95rem;
+  }
+  
+  /* Texto en negrita */
+  .lista-formacion p strong {
+    color: #000;
+  }
+
+  @media (max-width: 600px) {
+    .formacion-academica {
+      padding: 1rem;
+    }
+  
+    .formacion-academica h2 {
+      font-size: 1.5rem;
+    }
+  
+    .lista-formacion h3 {
+      font-size: 1.1rem;
+    }
+  
+    .lista-formacion p {
+      font-size: 0.9rem;
+    }
+  }
+  
