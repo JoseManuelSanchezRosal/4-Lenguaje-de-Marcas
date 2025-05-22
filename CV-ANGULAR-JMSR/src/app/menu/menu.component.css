@@ -1,14 +1,15 @@
 /* menu-sidebar.component.scss */
 .sidenav-container {
     height: 100vh;
+    background-color: white;
   }
   
   .sidenav {
     width: 350px;
-    background-color: #2c2c2c;
     color: white;
+    background-color: green;
     text-align: center;
-    padding: 2rem
+    padding: 2rem;
     white-space: normal;
     word-break: break-word;
   }

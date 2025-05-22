@@ -2,6 +2,11 @@
 .app-container {
     display: flex;
     height: 100vh; /* Ocupa toda la altura de la ventana */
+  background-color: white;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius:  100px;
+    
+
   }
   
   app-menu {
@@ -15,4 +20,7 @@
     padding: 1rem; /* Espaciado interno */
     overflow-y: auto; /* Permite el desplazamiento vertical si es necesario */
     align-self: center;
+  }
+  .badi{
+    background-color: green;
   }
