@@ -1,19 +1,19 @@
 body {
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #E69500;
+    background-color: green;
     color: #333;
 }
 .cv-wrapper {
     display: flex;
     height: 97vh;
     overflow: hidden;
-    border: 10px solid  #E69500;  
+    border: 10px solid  green;  
     border-radius: 50px;;
 }
 .sidebar {
-    background-color: #E69500;
-    color: #1b78b6;
+    background-color: green;
+    color: white;
     padding: 50px;
     width: 200px;
     text-align: center;
@@ -46,8 +46,8 @@ body {
 }
 .botones button {
     padding: 12px 18px;
-    background-color: #E69500;
-    color:  #1b78b6;
+    background-color: green;
+    color:  white;
     border: none;
     border-radius: 6px;
     font-weight: bold;
@@ -56,6 +56,7 @@ body {
 }
 .botones button:hover {
     background-color:white;
+    color: green;
 }
 .contenido-box {
     display: flex;
@@ -73,7 +74,7 @@ body {
     margin-bottom: 20px;
 }
 #contenido-imagen img {
-    max-width: 300px;
+    max-width: 800px;
     width: 100%;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -94,7 +95,7 @@ body {
     font-size: 0.95em;
 }
 .contacto a {
-    color: #1b78b6;
+    color: white;
     text-decoration: none;
     transition: color 0.2s;
 }
